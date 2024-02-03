@@ -1,0 +1,57 @@
+<html lang="ja">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+    </head>
+    <header class="header" id="header">
+        <div class="header-text">
+            <h1 class="site-title">山口県 <br>道の駅サイト</h1>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="mask"></div>
+            <div id="navi" class="navi">
+                <ul id="navi-list"></ul>
+            </div>
+        </div>
+    </header>
+    <body>
+        <div class="container">
+            <main>
+                <div id="map-container" class="map-container">
+                    <img src="img/yamaguchi.jpg" alt="Yamaguchi-map" class="map-img">
+                </div>
+                <div class="cover"></div>
+                <div id="station-info" class="station-info">
+                    <h3 id="station-info-title" class="station-info-title"></h3>
+                    <div id="station-info-image" class="station-info-image">
+                        <img id="station-image">
+                        <img id="board-image">
+                    </div>
+                    <dl id="station-info-text" class="station-info-text">
+                        <dt class="border">住所</dt>
+                        <dd class="border" id="station-address"></dd>
+                        <dt>営業時間</dt>
+                        <dd id="station-time"></dd>
+                        <dt>電話番号</dt>
+                        <dd id="station-tel"></dd>
+                        <dt>駐車場台数</dt>
+                        <dd id="station-parking"></dd>
+                        <dt>名物ソフト</dt>
+                        <dd id="station-cream"></dd>
+                    </dl>
+                </div>
+                <footer class="footer">
+                     <p>station.web_@</p>
+                </footer>
+            </main>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="stations.js"></script>
+        <script src="main.js"></script>
+    </body> 
+</html> 

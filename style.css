@@ -1,0 +1,269 @@
+
+* {
+    font-family: 'Kosugi Maru', sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* container */
+.container {
+    padding-left: 300px;
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    text-align: center;
+    width: 300px;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #2653d7;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    overflow: auto;
+    z-index: 1;
+}
+.header-text {
+    border: #fff solid 3px;
+    border-radius: 5px;
+    padding: 40px 35px 25px 40px;
+}
+.site-title {
+    padding-bottom: 30px;
+}
+
+/* nav*/
+#navi-list {
+    padding: 0;
+}
+#navi-list li {
+    padding: 5.5px;
+}
+#navi-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* hamburger */
+
+/* map */
+.map-container {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.map-img {
+    padding-top: 60px;
+    width: 100%;
+}
+.point {
+    position: absolute;
+    cursor: pointer;
+    transform: translate(-50%, 0);
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+}
+
+/* station-info */
+.station-info {
+    padding-top: 10px;
+}
+.station-info-title {
+    font-size: 70px;
+    height: 80px;
+    text-align: center;
+    color: #2653d7;
+    position: relative;
+}
+.station-info-image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.border {
+    border-top:  solid 1px #2653d7;
+}
+.station-info-text {
+    padding: 0px 25px 25px 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.station-info-text dt {
+    width: 20%;
+    font-size: 30px;
+    padding: 10px 50px;
+    color: #2653d7;
+    border-bottom:  solid 1px #2653d7;
+}
+.station-info-text dd {
+    width: 52.4%;
+    font-size: 30px;
+    padding: 10px 70px;
+    color: #2653d7;
+    border-bottom:  solid 1px #2653d7;
+    background-color: #fff;
+}
+.station-info-image img {
+    width: 45%;
+    border: 10px solid #2653d7;
+    border-radius: 30px;
+    margin: 20px;
+}
+dl dt:nth-child(odd),
+dl dd:nth-child(odd) {
+    background-color: #d2d4f9;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    padding: 5px;
+    height: auto;
+    margin: 0;
+    background-color: #2653d7;
+    color: #fff;
+    font-size: 25px;
+}
+.footer p {
+    text-align: center;
+    padding: 15px 0;
+    border: #fff solid 3px;
+    border-radius: 5px;
+}
+
+@media (max-width: 960px) {
+    
+     .container {
+        padding-left: 0;
+     }
+     .cont-info-text p {
+        font-size: 25px;
+     }
+     .header {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+     }
+     .header-text {
+        border: none;
+        padding: 0;
+     }
+     .site-title{
+        list-style: none;
+        border: #fff solid 3px;
+        border-radius: 5px;
+        padding: 10px 0px;
+     }
+     .point {
+        width: 35px;
+        height: 35px;
+    }
+    .hamburger {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        position: fixed;
+        top: 17px;
+        right: 18px;
+        transition: 0.5s;
+        z-index: 20;
+    }
+    .hamburger span {
+        width: 30px;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 4px;
+        display: block;
+        position: absolute;
+        left: 0;
+        transition: 0.5s;
+    }
+    .hamburger span:nth-child(1) {
+        top: 4px;
+    }
+    .hamburger span:nth-child(2) {
+        top: 14px;
+    }
+    .hamburger span:nth-child(3) {
+        bottom: 4px;
+    }
+    .open .hamburger span {
+        background-color: #fff;
+    }
+    .open .hamburger span:nth-child(1) {
+      transform: translateY(10px) rotate(-315deg);
+    }
+    .open .hamburger span:nth-child(2) {
+      opacity: 0;
+    }
+    .open .hamburger span:nth-child(3) {
+      transform: translateY(-10px) rotate(315deg);
+    }
+    .open #navi {
+        left: 0;
+        opacity: 1;
+    }
+    .open #mask {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        cursor: pointer;
+        display: block;
+        opacity: 0.8;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+    #navi {
+        padding: 300px;
+        background-color: #2653d7;
+        padding: 5px;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        bottom: 0;
+        opacity: 0;
+        overflow-y: auto;
+        transition: 0.5s;
+        z-index: 20;
+    }
+    #navi-list {
+        border: #fff solid 3px;
+        border-radius: 5px;
+        padding: 30px 30px 25px 35px;   
+    }
+    #navi-list li {
+        list-style: none;
+        padding: 8px;
+    }
+     br {
+        display: none;
+     }
+     
+}
+@media (max-width: 540px) {
+    .point {
+       width: 27px;
+       height: 27px;
+    }
+    .station-info-title h3 {
+        font-size: 45px;
+    }
+    .station-info-text dd {
+        font-size: 25px;
+    }
+    .station-info-image {
+        display: block;
+    }
+    .station-info-image img {
+        width: 90%;
+    }
+}
