@@ -63,10 +63,10 @@ updateStationInfo = (station) => {
     // // 駅名
     $('#station-info-title').text(station.name);
 
-    // // 画像station
-    // $('#station-image').src(station.stationImage).alt(station.name +'の風景');
-    // // 画像board
-    // $('#station-board').src(station.boardImage).alt(station.name +'の風景')
+    // 画像station
+    $('#station-image').attr(station.stationImage).alt(station.name +'の風景');
+    // 画像board
+    $('#station-board').attr(station.boardImage).alt(station.name +'の風景')
 
     // 住所
     $('#station-address').text(station.address);
