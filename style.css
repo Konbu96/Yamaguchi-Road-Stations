@@ -105,7 +105,7 @@ li {
 #station-info-text dt {
     width: 25%;
     font-size: 40px;
-    padding: 10px 30px;
+    padding: 10px 30px 10px 0px;
     color: #2653d7;
     border-right:  dotted 2px #2653d7;
     float: left;
@@ -269,9 +269,9 @@ dl div:nth-child(odd) {
         width: 90%;
     }
     #station-info-text dd {
-        font-size: 30px;
+        font-size: 25px;
     }
     #station-info-text dt {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
