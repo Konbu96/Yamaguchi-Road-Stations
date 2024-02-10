@@ -102,7 +102,7 @@ li {
 }
 
 #station-info-text dt {
-    width: 40%;
+    width: 30%;
     font-size: 30px;
     padding: 10px 30px;
     color: #2653d7;
@@ -115,7 +115,6 @@ li {
     padding: 10px 0px;
     color: #2653d7;
     border-bottom:  solid 1px #2653d7;
-    background-color: #fff;
     float: left;
 }
 .station-info-image img {
