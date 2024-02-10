@@ -99,6 +99,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    border-bottom:  solid 1px #2653d7;
 }
 
 #station-info-text dt {
@@ -106,7 +107,6 @@ li {
     font-size: 30px;
     padding: 10px 30px;
     color: #2653d7;
-    border-bottom:  solid 1px #2653d7;
     float: left;
 }
 #station-info-text dd {
@@ -114,7 +114,6 @@ li {
     font-size: 30px;
     padding: 10px 0px;
     color: #2653d7;
-    border-bottom:  solid 1px #2653d7;
     float: left;
 }
 .station-info-image img {
