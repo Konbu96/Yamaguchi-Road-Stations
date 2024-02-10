@@ -113,7 +113,7 @@ li {
 #station-info-text dd {
     width: 65%;
     font-size: 40px;
-    padding: 10px 0px;
+    padding-left: 10px;
     color: #2653d7;
     float: left;
 }
