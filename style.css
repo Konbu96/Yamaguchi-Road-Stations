@@ -271,8 +271,8 @@ dl div:nth-child(odd) {
     .station-info-image img {
         width: 90%;
     }
-    dd,
-    dt {
+    #station-info-text dd,
+    #station-info-tesxt dt {
         font-size: 20px;
     }
 }
