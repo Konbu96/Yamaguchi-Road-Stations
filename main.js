@@ -64,9 +64,9 @@ updateStationInfo = (station) => {
     $('#station-info-title').text(station.name);
 
     // 画像station
-    $('#station-image').attr('src',station.stationImage).attr('alt',station.name +'の風景');
+    $('#station-image').attr('src',station.stationImage).attr('alt',station.name);
     // 画像board
-    $('#station-board').attr('src',station.boardImage).attr('alt',station.name +'の風景')
+    $('#station-board').attr('src',station.boardImage).attr('alt',station.name)
 
     // 住所
     $('#station-address').text(station.address);
