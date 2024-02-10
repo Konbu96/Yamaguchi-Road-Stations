@@ -98,6 +98,7 @@ li {
 #station-info-text {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .station-info-text dt {
     width: 40%;
