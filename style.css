@@ -262,9 +262,6 @@ dl div:nth-child(odd) {
     .station-info-title h3 {
         font-size: 45px;
     }
-    .station-info-text dd {
-        font-size: 25px;
-    }
     .station-info-image {
         display: block;
     }
