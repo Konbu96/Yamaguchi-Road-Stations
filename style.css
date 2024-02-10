@@ -107,7 +107,7 @@ li {
     font-size: 40px;
     padding: 10px 30px;
     color: #2653d7;
-    border-right:  dotted 1px #2653d7;
+    border-right:  dotted 2px #2653d7;
     float: left;
 }
 #station-info-text dd {
