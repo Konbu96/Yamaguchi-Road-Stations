@@ -100,14 +100,14 @@ li {
     flex-wrap: wrap;
 }
 .station-info-text dt {
-    width: 30%;
+    width: 40%;
     font-size: 30px;
     padding: 10px 30px;
     color: #2653d7;
     border-bottom:  solid 1px #2653d7;
 }
 .station-info-text dd {
-    width: 70%;
+    width: 60%;
     font-size: 30px;
     padding: 10px 70px;
     color: #2653d7;
