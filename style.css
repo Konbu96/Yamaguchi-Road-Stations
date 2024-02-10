@@ -114,6 +114,7 @@ li {
     color: #2653d7;
     border-bottom:  solid 1px #2653d7;
     background-color: #fff;
+    float: left;
 }
 .station-info-image img {
     width: 45%;
@@ -121,11 +122,9 @@ li {
     border-radius: 30px;
     margin: 20px;
 }
-/* dl dt:nth-child(odd),
-dl dd:nth-child(odd) {
+dl:nth-child(odd) {
     background-color: #d2d4f9;
-} */
-
+}
 /* footer */
 .footer {
     width: 100%;
