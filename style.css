@@ -110,7 +110,7 @@ li {
 .station-info-text dd {
     width: 60%;
     font-size: 30px;
-    padding: 10px 70px;
+    padding: 10px 0px;
     color: #2653d7;
     border-bottom:  solid 1px #2653d7;
     background-color: #fff;
