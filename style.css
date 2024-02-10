@@ -274,4 +274,7 @@ dl div:nth-child(odd) {
     #station-info-text dd {
         font-size: 20px;
     }
+    #station-info-text dt {
+        font-size: 20px;
+    }
 }
