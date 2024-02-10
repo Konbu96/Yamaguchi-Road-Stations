@@ -95,7 +95,7 @@ li {
     display: flex;
     flex-wrap: wrap;
 }
-#station-info-text {
+#station-info-text div {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
