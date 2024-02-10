@@ -100,7 +100,8 @@ li {
     flex-wrap: wrap;
     width: 100%;
 }
-.station-info-text dt {
+
+#station-info-text dt {
     width: 40%;
     font-size: 30px;
     padding: 10px 30px;
@@ -108,7 +109,7 @@ li {
     border-bottom:  solid 1px #2653d7;
     float: left;
 }
-.station-info-text dd {
+#station-info-text dd {
     width: 60%;
     font-size: 30px;
     padding: 10px 0px;
