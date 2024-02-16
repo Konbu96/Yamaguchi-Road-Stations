@@ -279,4 +279,9 @@ dl div:nth-child(odd) {
     #station-info-text dt {
         font-size: 25px;
     }
+    .station-info-icon {
+        padding-top: 5px;
+        height: 32px;
+        width: 32px;
+    }
 }
