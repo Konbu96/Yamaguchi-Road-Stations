@@ -128,9 +128,8 @@ dl div:nth-child(odd) {
 }
 .station-info-icon {
     padding-top: 5px;
-    height: 45px;
-    width: 45px;
-    color: #2653d7;
+    height: 40px;
+    width: 40px;
 }
 /* footer */
 .footer {
