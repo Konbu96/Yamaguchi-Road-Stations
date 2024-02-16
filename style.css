@@ -101,6 +101,12 @@ li {
     width: 100%;
     border-bottom:  solid 1px #2653d7;
 }
+.station-info-image img {
+    width: 45%;
+    border: 10px solid #2653d7;
+    border-radius: 30px;
+    margin: 20px;
+}
 
 #station-info-text dt {
     width: 28%;
@@ -117,14 +123,12 @@ li {
     color: #2653d7;
     float: left;
 }
-.station-info-image img {
-    width: 45%;
-    border: 10px solid #2653d7;
-    border-radius: 30px;
-    margin: 20px;
-}
 dl div:nth-child(odd) {
     background-color: #d5d7fc;
+}
+.station-info-icon {
+    height: 32px;
+    width: 32px;
 }
 /* footer */
 .footer {
