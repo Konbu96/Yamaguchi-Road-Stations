@@ -130,6 +130,7 @@ dl div:nth-child(odd) {
     padding-top: 5px;
     height: 45px;
     width: 45px;
+    color: #2653d7;
 }
 /* footer */
 .footer {
