@@ -95,7 +95,7 @@ li {
     display: flex;
     flex-wrap: wrap;
 }
-#station-info-text div {
+#each-info {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -108,24 +108,24 @@ li {
     margin: 20px;
 }
 
+#info-item {
+    border-right:  dotted 2px #2653d7;
+}
 #station-info-text dt {
-    width: 28%;
+    /* width: 28%; */
     font-size: 40px;
     padding: 10px;
-    display: inline-block;
     color: #2653d7;
-    border-right:  dotted 2px #2653d7;
     float: left;
 }
 #station-info-text dd {
     width: 58%;
     font-size: 40px;
-    padding: 10px 0px 10px 30px;
-    display: inline-block;
     color: #2653d7;
+    padding: 10px 0px 10px 30px;
     float: left;
 }
-dl div:nth-child(odd) {
+dl #each-info:nth-child(odd) {
     background-color: #d5d7fc;
 }
 .station-info-icon {
@@ -283,16 +283,20 @@ dl div:nth-child(odd) {
     .station-info-image img {
         width: 90%;
     }
-    #station-info-text dd {
-        font-size: 25px;
-        padding-left: 62px;
+    #info-item {
+        border-right: none;
         width: 100%;
-        border-top: dotted 2px #2653d7;
     }
     #station-info-text dt {
         font-size: 25px;
-        width: 85%;
+        width: auto;
         border-right: none;
+    }
+    #station-info-text dd {
+        font-size: 25px;
+        padding-left: 62px;
+        border-top: dotted 2px #2653d7;
+        width: 100%;
     }
     .station-info-icon {
         height: 32px;
