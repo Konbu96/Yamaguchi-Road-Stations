@@ -75,23 +75,22 @@ li {
 .station-info {
     padding-top: 10px;
 }
-.station-info-title {
+#station-info-title {
     font-size: 70px;
     height: 80px;
     text-align: center;
     color: #2653d7;
     position: relative;
 }
-.station-info-image {
+#station-info-image {
     display: flex;
-    justify-content: center;
-    padding: 0px 20px 25px 20px;
+    justify-content: space-between;
+    padding: 0px 25px 25px 25px;
 }
-.station-info-image img {
-    width: 45%;
+#station-info-image img {
+    width: 46%;
     border: 10px solid #2653d7;
     border-radius: 30px;
-    margin: 15px;
 }
 .border {
     border-top:  solid 1px #2653d7;
@@ -110,17 +109,17 @@ li {
 
 #info-item {
     width: 30%;
+    padding-right: 10px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     border-right:  dotted 2px #2653d7;
     color: #2653d7;
     float: left;
-    padding-right: 10px;
-    font-size: 40px;
 }
 #station-info-text dd {
     width: 58%;
-    font-size: 40px;
+    font-size: 30px;
     color: #2653d7;
     padding: 10px 0px 10px 30px;
     display: flex;
@@ -135,9 +134,30 @@ dl #each-info:nth-child(odd) {
     height: 40px;
     width: 40px;
 }
-/* footer */
+
+/* station-info+ */
+#station-info-plus {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#info-plus-item {
+    display: flex;
+    width: 33%;
+    align-items: center;
+}
+#info-plus-item img {
+    width: 60px;
+    height: 60px;
+}
+#station-info-plus p {
+    padding-left: 15px;
+    font-size: 30px;
+    align-items: center;
+    color: #2653d7;
+}
+/* footer */ 
 .footer {
-    width: 100%;
     padding: 5px;
     height: auto;
     margin: 0;
@@ -156,9 +176,6 @@ dl #each-info:nth-child(odd) {
     
      .container {
         padding-left: 0;
-     }
-     .cont-info-text p {
-        font-size: 25px;
      }
      .header {
         width: 100%;
@@ -266,6 +283,13 @@ dl #each-info:nth-child(odd) {
         list-style: none;
         padding: 8px;
     }
+    #info-plus-item p {
+        size: 10px;
+    }
+    #info-plus-item img {
+        width: 50px;
+        height: 50px;
+    }
      br {
         display: none;
      }
@@ -279,11 +303,11 @@ dl #each-info:nth-child(odd) {
     .station-info-title {
         font-size: 60px;
     }
-    .station-info-image {
-        display: block;
+    #station-info-image {
+        flex-direction: column;
     }
-    .station-info-image img {
-        width: 90%;
+    #station-info-image img {
+        width: 95%;
     }
     #info-item {
         border-right: none;
@@ -300,8 +324,14 @@ dl #each-info:nth-child(odd) {
         border-top: dotted 2px #2653d7;
         width: 100%;
     }
-    .station-info-icon {
-        height: 32px;
-        width: 32px;
+    #info-plus-item {
+        width: 50%;
+    }
+    #info-plus-item p {
+        size: 10px;
+    }
+    #info-plus-item img {
+        width: 30px;
+        height: 30px;
     }
 }
