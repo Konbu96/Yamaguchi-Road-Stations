@@ -63,7 +63,7 @@
       stationImage: 'img/stations_photo_new/05_ohuku_station.jpg',
       mapX: '25.8',
       mapY: '47.5',
-      facilities : "park,guide,inn,atm,shop,hotSpring,camp,museum,toilet,shower,babyBed",
+      facilities : "shop,hotSpring,toilet,babyBed,cafe,restaurant",
     },
     {
       name: '上関海峡',
@@ -76,7 +76,7 @@
       stationImage: 'img/stations_photo_new/06_kaminoseki_station.jpg',
       mapX: '75.5',
       mapY: '80.3',
-      facilities : "park,guide,inn,atm,shop,hotSpring,camp,museum,toilet,shower,babyBed",
+      facilities : "guide,shop,toilet,cafe,restaurant",
     },
     {
       name: '願成就温泉',
@@ -89,7 +89,7 @@
       stationImage: 'img/stations_photo_new/07_ganjyoujyu_station.jpg',
       mapX: '54.5',
       mapY: '32.7',
-      facilities : "park,guide,inn,atm,shop,hotSpring,camp,museum,toilet,shower,babyBed",
+      facilities : "guide,shop,hotSpring,toilet,babyBed,restaurant",
     },
     {
       name: 'きくがわ',
@@ -102,7 +102,7 @@
       stationImage: 'img/stations_photo_new/08_kikugawa_station.jpg',
       mapX: '17.9',
       mapY: '58',
-      facilities : "park,guide,inn,atm,shop,hotSpring,camp,museum,toilet,shower,babyBed",
+      facilities : "guide,shop,toilet,cafe,restaurant",
     },
     {
       name: '北浦街道 豊北',
@@ -115,7 +115,7 @@
       stationImage: 'img/stations_photo_new/09_toyokita_station.jpg',
       mapX: '10.5',
       mapY: '43.3',
-      facilities : "park,guide,inn,atm,shop,hotSpring,camp,museum,toilet,shower,babyBed",
+      facilities : "guide,shop,toilet,babyBed,cafe,restaurant",
     },
     {
       name: 'きららあじす',
@@ -128,7 +128,7 @@
       stationImage: 'img/stations_photo_new/10_kirara_station.jpg',
       mapX: '33',
       mapY: '69.2',
-      facilities : "park,guide,inn,atm,shop,hotSpring,camp,museum,toilet,shower,babyBed",
+      facilities : "shop,toilet,cafe,restaurant,babyBed",
     },
     {
       name: 'サザンセトとうわ',
@@ -142,7 +142,7 @@
       stationImage: 'img/stations_photo_new/11_touwa_station.jpg',
       mapX: '83',
       mapY: '78.0',
-      facilities : "park,guide,inn,atm,shop,hotSpring,camp,museum,toilet,shower,babyBed",
+      facilities : "park,guide,shop,toilet,cafe,restaurant,babyBed",
     },
     {
       name: '潮彩市場防府',
@@ -156,7 +156,7 @@
       stationImage: 'img/stations_photo_new/12_shiosai_station.jpg',
       mapX: '47',
       mapY: '64.5',
-      facilities : "park,guide,inn,atm,shop,hotSpring,camp,museum,toilet,shower,babyBed",
+      facilities : "cafe,restaurant,park,guide,shop,toilet",
     },
     {
       name: 'センザキッチン',
@@ -170,7 +170,7 @@
       stationImage: 'img/stations_photo_new/13_senzaki_station.jpg',
       mapX: '25.8',
       mapY: '34.8',
-      facilities : "park,guide,inn,atm,shop,hotSpring,camp,museum,toilet,shower,babyBed",
+      facilities : "guide,shop,toilet,shower,babyBed,cafe,restaurant",
     },
     {
       name: 'ソレーネ周南',
@@ -184,7 +184,7 @@
       stationImage: 'img/stations_photo_new/14_syuunan_station.jpg',
       mapX: '53.1',
       mapY: '63.2',
-      facilities : "park,guide,inn,atm,shop,hotSpring,camp,museum,toilet,shower,babyBed",
+      facilities : "park,guide,atm,shop,toilet,babyBed",
     },
     {
       name: '長門峡',
@@ -197,7 +197,7 @@
       stationImage: 'img/stations_photo_new/15_choumon_station.jpg',
       mapX: '46.1',
       mapY: '43.2',
-      facilities : "park,guide,inn,atm,shop,hotSpring,camp,museum,toilet,shower,babyBed",
+      facilities : "park,shop,toilet,restaurant,babyBed",
     },
     {
       name: '仁保の郷',
