@@ -85,9 +85,9 @@ updateStationInfo = (station) => {
         element = aa
     
         if (station.facilities.includes(facility)) {
-            $()
+            $('#station-facility-item').class
         } else {
-
+            $('#station-facility-item').class
         }
         })
     
