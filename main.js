@@ -79,3 +79,15 @@ updateStationInfo = (station) => {
     // ソフトクリーム
     $('#station-cream').text(station.cream);
 }
+
+const facilities = ["park","guide","inn","atm","shop","hotSpring","camp","museum","toilet","shower","babyBed"]
+
+facilities.forEach(facility => {
+    element = aa
+
+    if (station.facilities.includes(facility)) {
+        
+      } else {
+        
+      }
+})

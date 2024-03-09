@@ -137,12 +137,13 @@ dl #each-info:nth-child(odd) {
 
 /* station-info+ */
 #station-info-plus {
-    width: 100%;
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 #info-plus-item {
+    width: 285px;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -284,8 +285,11 @@ dl #each-info:nth-child(odd) {
         list-style: none;
         padding: 8px;
     }
+    #info-plus-item {
+        width: 240px;
+    }
     #info-plus-item p {
-        size: 10px;
+        font-size: 25px;
     }
     #info-plus-item img {
         width: 50px;
@@ -326,8 +330,11 @@ dl #each-info:nth-child(odd) {
         border-top: dotted 2px #2653d7;
         width: 100%;
     }
+    #info-plus-item {
+        width: 220px;
+    }
     #info-plus-item p {
-        font-size: 25px;
+        font-size: 20px;
     }
     #info-plus-item img {
         width: 30px;
