@@ -136,23 +136,23 @@ dl #each-info:nth-child(odd) {
 }
 
 /* station-info+ */
-#station-info-plus {
+#station-info-facility {
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-#info-plus-item {
+#info-facility-item {
     width: 285px;
-    padding: 5px;
+    padding: 10px;
     display: flex;
     align-items: center;
 }
-#info-plus-item img {
+#info-facility-item img {
     width: 60px;
     height: 60px;
 }
-#station-info-plus p {
+#station-info-facility p {
     padding-left: 15px;
     font-size: 30px;
     align-items: center;
@@ -285,13 +285,13 @@ dl #each-info:nth-child(odd) {
         list-style: none;
         padding: 8px;
     }
-    #info-plus-item {
+    #info-facility-item {
         width: 240px;
     }
-    #info-plus-item p {
+    #info-facility-item p {
         font-size: 25px;
     }
-    #info-plus-item img {
+    #info-facility-item img {
         width: 50px;
         height: 50px;
     }
@@ -330,13 +330,13 @@ dl #each-info:nth-child(odd) {
         border-top: dotted 2px #2653d7;
         width: 100%;
     }
-    #info-plus-item {
+    #info-facility-item {
         width: 220px;
     }
-    #info-plus-item p {
+    #info-facility-item p {
         font-size: 20px;
     }
-    #info-plus-item img {
+    #info-facility-item img {
         width: 30px;
         height: 30px;
     }

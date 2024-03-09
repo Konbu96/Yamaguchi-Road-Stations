@@ -78,16 +78,20 @@ updateStationInfo = (station) => {
     $('#station-parking').text(station.parking + '台');
     // ソフトクリーム
     $('#station-cream').text(station.cream);
-}
 
-const facilities = ["park","guide","inn","atm","shop","hotSpring","camp","museum","toilet","shower","babyBed"]
+    // 設備更新
+    $('station-info-facilities').empty();
+    facilities.forEach(facility => {
+        element = aa
+    
+        if (station.facilities.includes(facility)) {
+            $()
+        } else {
 
-facilities.forEach(facility => {
-    element = aa
+        }
+        })
+    
+    }
+    const facilities = ["park","guide","inn","shop","hotSpring","camp","museum","toilet","shower","babyBed","cafe","restaurant"]
 
-    if (station.facilities.includes(facility)) {
-        
-      } else {
-        
-      }
-})
+
