@@ -152,12 +152,21 @@ dl #each-info:nth-child(odd) {
     width: 60px;
     height: 60px;
 }
-#station-info-facility p {
+.exist {
     padding-left: 15px;
     font-size: 30px;
     align-items: center;
     color: #2653d7;
+    opacity: 1;
 }
+.not-exist {
+    padding-left: 15px;
+    font-size: 30px;
+    align-items: center;
+    color: #2653d7;
+    opacity: 0.5;
+}
+
 /* footer */ 
 .footer {
     padding: 5px;

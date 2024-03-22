@@ -82,12 +82,14 @@ updateStationInfo = (station) => {
     // 設備更新
     $('station-info-facilities').empty();
     facilities.forEach(facility => {
-        element = aa
+        const element = $(`.${facility}`)
     
         if (station.facilities.includes(facility)) {
-            $('#station-facility-item').class
+            element.addClass('exist')
+            element.removeClass('not-exist')
         } else {
-            $('#station-facility-item').class
+            element.addClass('not-exist')
+            element.removeClass('exist')
         }
         })
     
