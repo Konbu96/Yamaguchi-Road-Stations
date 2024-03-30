@@ -146,11 +146,13 @@ dl #each-info:nth-child(odd) {
     width: 285px;
     padding: 10px;
     display: flex;
+    float: left;
     align-items: center;
 }
 #info-facility-item img {
     width: 60px;
     height: 60px;
+    padding-right: 10px;
 }
 .exist {
     padding-left: 15px;
@@ -164,7 +166,7 @@ dl #each-info:nth-child(odd) {
     font-size: 30px;
     align-items: center;
     color: #2653d7;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 /* footer */ 

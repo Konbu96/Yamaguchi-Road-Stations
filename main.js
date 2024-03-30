@@ -1,18 +1,18 @@
 addMarker = (station) => {
     const container = $('#map-container');
-    const pointA = document.createElement('a');
-    pointA.href = `#station-info`;
-    container.append(pointA);
-    const pointImg = document.createElement('img');
-    pointImg.classList.add('point');
-    pointImg.style.left = `${station.mapX}%`;
-    pointImg.style.top = `${station.mapY}%`;
-    pointImg.src = "img/mi.jpg";    
-    pointImg.alt = '';
-    pointImg.onclick = (stationg) => updateStationInfo(station);
-    pointA.append(pointImg);
+    const pointA = $('<a></a>');
+    $('pointA').attr =('href', `#station-info`);
+    $('container').append(pointA);
+    var pointImg = $('<img>');
+    $('pointImg').attr('src', "img/symbol.bmp")
+    $('pointImg').addClass('point');
+    $('pointImg').css('left',`${station.mapX}%`);
+    $('pointImg').css('top',`${station.mapY}%`);
+    // pointImg.src = "img/symbol.bmp";    
+    // pointImg.alt = '';
+    $('pointImg').on('click',function(stationg)  {updateStationInfo(station)})
+    $('pointA').append(pointImg);
 };
-
 // navi
 addNaviMenu = (station) => {
     const list = $('#navi-list')
