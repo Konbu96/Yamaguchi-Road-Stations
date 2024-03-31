@@ -1,17 +1,23 @@
 addMarker = (station) => {
     const container = $('#map-container');
+
     const pointA = $('<a></a>');
-    $('pointA').attr =('href', `#station-info`);
-    $('container').append(pointA);
-    var pointImg = $('<img>');
-    $('pointImg').attr('src', "img/symbol.bmp")
-    $('pointImg').addClass('point');
-    $('pointImg').css('left',`${station.mapX}%`);
-    $('pointImg').css('top',`${station.mapY}%`);
-    // pointImg.src = "img/symbol.bmp";    
-    // pointImg.alt = '';
-    $('pointImg').on('click',function(stationg)  {updateStationInfo(station)})
-    $('pointA').append(pointImg);
+    pointA.attr =('href', `#station-info`);
+    // pointA.addClass('point');
+    container.append(pointA);
+
+    const pointImg = $('<img>');
+    pointImg.attr('src', "img/symbol.bmp")
+    pointImg.addClass('point');
+    pointImg.css('left',`${station.mapX}%`);
+    pointImg.css('top',`${station.mapY}%`);
+    pointImg.on('click',function(stationg)  {updateStationInfo(station)})
+    pointA.append(pointImg);
+
+    // const pointText = $('<p></p>')
+    // pointText.text(station.name);
+    // pointA.append(pointText);
+
 };
 // navi
 addNaviMenu = (station) => {
@@ -52,8 +58,8 @@ window.onload = () => {
 
     // scroll//
     $('#map-container a[href*="#"]').click(function () {
-    var elmHash = $(this).attr('href'); 
-    var pos = $(elmHash).offset().top;	
+    const elmHash = $(this).attr('href'); 
+    const pos = $(elmHash).offset().top;	
     $('body,html').animate({scrollTop: pos}, 700); 
     return false;
     });
