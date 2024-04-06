@@ -42,6 +42,8 @@ window.onload = () => {
     // 駅情報はとりあえず先頭の駅を表示
     updateStationInfo(stations[0]);
 
+
+    // hamburger
     $('.hamburger').on('click',function() {
         if ($('#header').hasClass('open')) {
           $('#header').removeClass('open');
@@ -55,6 +57,22 @@ window.onload = () => {
     $('#navi').on('click', function() {
         $('#header').removeClass('open');
     })
+
+    // map-hamburger
+    $('#map-hamburger').on('click',function() {
+        if ($('.header').hasClass('map-open')) {
+          $('.header').removeClass('map-open');
+        } else {
+            $('.header').addClass('map-open');
+        }
+    });
+    $('#map-mask').on('click', function() {
+        $('.header').removeClass('map-open');
+    });
+    $('#map-navi').on('click', function() {
+        $('.header').removeClass('map-open');
+    })
+
 
     // scroll//
     $('#map-container a[href*="#"]').click(function () {

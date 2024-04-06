@@ -1,6 +1,6 @@
 
 * {
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Kosugi faru', sans-serif;
     margin: 0;
 }
 
@@ -33,8 +33,11 @@ li {
     border-radius: 5px;
     padding: 40px 35px 25px 40px;
 }
+.map-hamburger {
+    position: fixed;
+}
 .site-title {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 /* nav*/
@@ -42,7 +45,7 @@ li {
     padding: 0;
 }
 #navi-list li {
-    padding: 5.5px;
+    padding: 3.4px;
 }
 #navi-list a {
     color: #fff;
@@ -50,7 +53,7 @@ li {
     font-size: 20px;
 }
 
-/* hamburger */
+/* map-hamburger */
 
 /* map */
 .map-container {
@@ -59,7 +62,6 @@ li {
     width: 100%;
 }
 .map-img {
-    padding-top: 60px;
     width: 100%;
 }
 .point {
@@ -78,6 +80,8 @@ li {
 #station-info-title {
     font-size: 70px;
     height: 80px;
+    padding-top: 70px;
+    padding-bottom: 20px;
     text-align: center;
     color: #2653d7;
     position: relative;
@@ -223,7 +227,7 @@ dl #each-info:nth-child(odd) {
         cursor: pointer;
         position: fixed;
         align-items: center;
-        top: 17px;
+        top: 25px;
         right: 18px;
         transition: 0.5s;
         z-index: 20;
@@ -269,7 +273,7 @@ dl #each-info:nth-child(odd) {
         background-color: #000;
         cursor: pointer;
         display: block;
-        opacity: 0.8;
+        opacity: 0.7;
         position: fixed;
         top: 0;
         left: 0;
@@ -288,6 +292,10 @@ dl #each-info:nth-child(odd) {
         transition: 0.5s;
         z-index: 20;
     }
+    .open #navi {
+        bottom: 0;
+        opacity: 1;
+    }
     #navi-list {
         border: #fff solid 3px;
         border-radius: 5px;
@@ -295,7 +303,41 @@ dl #each-info:nth-child(odd) {
     }
     #navi-list li {
         list-style: none;
-        padding: 8px;
+    }
+    .map-hamburger {
+        width: 90px;
+        cursor: pointer;
+        position: fixed;
+        align-items: center;
+        top: 12px;
+        left: 18px;
+        transition: 0.5s;
+        z-index: 20;
+    }
+    .map-open #map-mask {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        cursor: pointer;
+        display: block;
+        opacity: 0.7;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 11;
+    }
+    #map-navi {
+        padding: 300px;
+        background-color: #2653d7;
+        padding: 5px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: -300px;
+        opacity: 0;
+        overflow-y: auto;
+        transition: 0.5s;
+        z-index: 21;
     }
     #info-facility-item {
         width: 240px;
@@ -323,6 +365,9 @@ dl #each-info:nth-child(odd) {
     .station-info-title {
         font-size: 60px;
     }
+    .hamburger {
+        top: 20px;
+    }
     #station-info-image {
         flex-direction: column;
     }
@@ -334,7 +379,6 @@ dl #each-info:nth-child(odd) {
         border-right: none;
         width: 100%;
     }
-    
     #station-info-title {
         font-size: 50px;
     }
