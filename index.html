@@ -3,17 +3,23 @@
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-with, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     </head>
     <header class="header" id="header">
         <div class="header-text">
-            <h1 class="site-title">山口県 <br>道の駅サイト</h1>
+            <!-- map-hamburger -->
             <div id="map-hamburger" class="map-hamburger">
                 <img src="img/yamaguchi.jpg" alt="Yamaguchi-map" class="map-img">
             </div>
             <div id="map-mask"></div>
-            <div id="mpa-navi" class="map-navi">
+            <div id="map-container" class="map-container">
+                <img src="img/yamaguchi.jpg" alt="Yamaguchi-map" class="navi-map">
+            </div>
+
+            <!-- map-title -->
+            <h1 class="site-title">山口県 <br>道の駅サイト</h1>
+            <!-- navi-hamburger -->
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -28,9 +34,6 @@
     <body>
         <div class="container">
             <main>
-                <!-- <div id="map-container" class="map-container">
-                    <img src="img/yamaguchi.jpg" alt="Yamaguchi-map" class="map-img">
-                </div> -->
                 <div class="cover"></div>
                 <div id="station-info" class="station-info">
                     <h3 id="station-info-title"></h3>

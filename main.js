@@ -44,7 +44,7 @@ window.onload = () => {
 
 
     // hamburger
-    $('.hamburger').on('click',function() {
+    $('hamburger').on('click',function() {
         if ($('#header').hasClass('open')) {
           $('#header').removeClass('open');
         } else {
@@ -69,7 +69,7 @@ window.onload = () => {
     $('#map-mask').on('click', function() {
         $('.header').removeClass('map-open');
     });
-    $('#map-navi').on('click', function() {
+    $('#map-container').on('click', function() {
         $('.header').removeClass('map-open');
     })
 
