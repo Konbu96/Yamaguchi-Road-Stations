@@ -10,7 +10,7 @@
       boardImage:'img/stations_photo_new/01_aio_board.jpg',
       stationImage:'img/stations_photo_new/01_aio_station.jpg',
       mapX: '39.1',
-      mapY: '65.9',
+      mapY: '59.9',
       facilities : "park,shop,toilet,cafe,restaurant",
     },
     {
@@ -23,7 +23,7 @@
       boardImage:'img/stations_photo_new/02_asahi_board.jpg',
       stationImage: 'img/stations_photo_new/02_asahi_station.jpg',
       mapX: '39.8',
-      mapY: '45.1',
+      mapY: '39.1',
       facilities : "park,shop,toilet,restaurant,babyBed",
     },
     {
@@ -36,7 +36,7 @@
       boardImage:'img/stations_photo_new/03_abu_board.jpg',
       stationImage: 'img/stations_photo_new/03_abu_station.jpg',
       mapX: '41.4',
-      mapY: '26.6',
+      mapY: '20.6',
       facilities : "park,guide,shop,hotSpring,toilet,babyBed,cafe,restaurant",
     },
     {
@@ -49,7 +49,7 @@
       boardImage:'img/stations_photo_new/04_uribou_board.jpg',
       stationImage: 'img/stations_photo_new/04_uribou_station.jpg',
       mapX: '49.3',
-      mapY: '27.3',
+      mapY: '21.3',
       facilities : "shop,cafe,toilet",
     },
     {
@@ -62,7 +62,7 @@
       boardImage:'img/stations_photo_new/05_ohuku_board.jpg',
       stationImage: 'img/stations_photo_new/05_ohuku_station.jpg',
       mapX: '25.8',
-      mapY: '47.5',
+      mapY: '41.5',
       facilities : "shop,hotSpring,toilet,babyBed,cafe,restaurant",
     },
     {
@@ -75,7 +75,7 @@
       boardImage:'img/stations_photo_new/06_kaminoseki_board.jpg',
       stationImage: 'img/stations_photo_new/06_kaminoseki_station.jpg',
       mapX: '75.5',
-      mapY: '80.3',
+      mapY: '74.3',
       facilities : "guide,shop,toilet,cafe,restaurant",
     },
     {
@@ -88,7 +88,7 @@
       boardImage:'img/stations_photo_new/07_ganjyoujyu_board.jpg',
       stationImage: 'img/stations_photo_new/07_ganjyoujyu_station.jpg',
       mapX: '54.5',
-      mapY: '32.7',
+      mapY: '26.7',
       facilities : "guide,shop,hotSpring,toilet,babyBed,restaurant",
     },
     {
@@ -101,7 +101,7 @@
       boardImage:'img/stations_photo_new/08_kikugawa_board.jpg',
       stationImage: 'img/stations_photo_new/08_kikugawa_station.jpg',
       mapX: '17.9',
-      mapY: '58',
+      mapY: '52',
       facilities : "guide,shop,toilet,cafe,restaurant",
     },
     {
@@ -114,7 +114,7 @@
       boardImage:'img/stations_photo_new/09_toyokita_board.jpg',
       stationImage: 'img/stations_photo_new/09_toyokita_station.jpg',
       mapX: '10.5',
-      mapY: '43.3',
+      mapY: '37.3',
       facilities : "guide,shop,toilet,babyBed,cafe,restaurant",
     },
     {
@@ -127,7 +127,7 @@
       boardImage:'img/stations_photo_new/10_kirara_board.jpg',
       stationImage: 'img/stations_photo_new/10_kirara_station.jpg',
       mapX: '33',
-      mapY: '69.2',
+      mapY: '63.2',
       facilities : "shop,toilet,cafe,restaurant,babyBed",
     },
     {
@@ -141,7 +141,7 @@
       boardImage:'img/stations_photo_new/11_touwa_board.jpg',
       stationImage: 'img/stations_photo_new/11_touwa_station.jpg',
       mapX: '83',
-      mapY: '78.0',
+      mapY: '72.0',
       facilities : "park,guide,shop,toilet,cafe,restaurant,babyBed",
     },
     {
@@ -155,7 +155,7 @@
       boardImage:'img/stations_photo_new/12_shiosai_board.jpg',
       stationImage: 'img/stations_photo_new/12_shiosai_station.jpg',
       mapX: '47',
-      mapY: '64.5',
+      mapY: '58.5',
       facilities : "cafe,restaurant,park,guide,shop,toilet",
     },
     {
@@ -169,7 +169,7 @@
       boardImage:'img/stations_photo_new/13_senzaki_board.jpg',
       stationImage: 'img/stations_photo_new/13_senzaki_station.jpg',
       mapX: '25.8',
-      mapY: '34.8',
+      mapY: '28.8',
       facilities : "guide,shop,toilet,shower,babyBed,cafe,restaurant,museum",
     },
     {
@@ -183,7 +183,7 @@
       boardImage:'img/stations_photo_new/14_syuunan_board.jpg',
       stationImage: 'img/stations_photo_new/14_syuunan_station.jpg',
       mapX: '53.1',
-      mapY: '63.2',
+      mapY: '59.2',
       facilities : "park,guide,shop,toilet,babyBed,cafe,restaurant",
     },
     {
@@ -196,7 +196,7 @@
       boardImage:'img/stations_photo_new/15_choumon_board.jpg',
       stationImage: 'img/stations_photo_new/15_choumon_station.jpg',
       mapX: '46.1',
-      mapY: '43.2',
+      mapY: '37.2',
       facilities : "park,shop,toilet,restaurant,babyBed",
     },
     {
@@ -209,7 +209,7 @@
       boardImage:'img/stations_photo_new/16_niho_board.jpg',
       stationImage: 'img/stations_photo_new/16_niho_station.jpg',
       mapX: '43.9',
-      mapY: '50.7',
+      mapY: '44.7',
       facilities : "park,shop,toilet,cafe,restaurant,babyBed",
     },
     {
@@ -222,7 +222,7 @@
       boardImage:'img/stations_photo_new/17_hagioukan_board.jpg',
       stationImage: 'img/stations_photo_new/17_hagioukan_station.jpg',
       mapX: '37.9',
-      mapY: '38.7',
+      mapY: '32.7',
       facilities : "park,guide,shop,toilet,cafe,restaurant,museum,babyBed",
     },
     {
@@ -235,7 +235,7 @@
       boardImage:'img/stations_photo_new/18_sanmi_board.jpg',
       stationImage: 'img/stations_photo_new/18_sanmi_station.jpg',
       mapX: '32.4',
-      mapY: '37.0',
+      mapY: '30.0',
       facilities : "shop,toilet,restaurant",
     },
     {
@@ -249,7 +249,7 @@
       boardImage:'img/stations_photo_new/19_si-ma-to_board.jpg',
       stationImage: 'img/stations_photo_new/19_si-ma-to_station.jpg',
       mapX: '37.9',
-      mapY: '32.2',
+      mapY: '26.2',
       facilities : "cafe,restaurant,park,shop,toilet,babyBed",
     },
     {
@@ -262,7 +262,7 @@
       boardImage:'img/stations_photo_new/20_hukue_board.jpg',
       stationImage: 'img/stations_photo_new/20_hukue_station.jpg',
       mapX: '41.6',
-      mapY: '32.2',
+      mapY: '26.2',
       facilities : "restaurant,park,shop,toilet,babyBed",
     },
     {
@@ -275,7 +275,7 @@
       boardImage:'img/stations_photo_new/21_nishiki_board.jpg',
       stationImage: 'img/stations_photo_new/21_nishiki_station.jpg',
       mapX: '66.5',
-      mapY: '48',
+      mapY: '42',
       facilities : "cafe,restaurant,park,shop,toilet,babyBed",
     },
     {
@@ -288,7 +288,7 @@
       boardImage:'img/stations_photo_new/22_hotaru_board.jpg',
       stationImage: 'img/stations_photo_new/22_hotaru_station.jpg',
       mapX: '20',
-      mapY: '52',
+      mapY: '46',
       facilities : "cafe,restaurant,guide,shop,hotSpring,toilet,babyBed",
     },
     {
@@ -301,7 +301,7 @@
       boardImage:'img/stations_photo_new/23_mitou_board.jpg',
       stationImage: 'img/stations_photo_new/23_mitou_station.jpg',
       mapX: '32.8',
-      mapY: '50.6',
+      mapY: '44.6',
       facilities : "park,cafe,restaurant,guide,shop,toilet,babyBed",
     },
     {
@@ -314,7 +314,7 @@
       boardImage:'img/stations_photo_new/24_tamagawa_board.jpg',
       stationImage: 'img/stations_photo_new/24_tamagawa_station.jpg',
       mapX: '50.6',
-      mapY: '14.9',
+      mapY: '8.9',
       facilities : "park,shop,restaurant,toiletf",
     },
   ];
