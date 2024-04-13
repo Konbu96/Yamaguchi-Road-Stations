@@ -11,7 +11,7 @@ addMarker = (station) => {
     pointImg.addClass('point');
     pointImg.css('left',`${station.mapX}%`);
     pointImg.css('top',`${station.mapY}%`);
-    pointImg.on('click',function(stationg)  {updateStationInfo(station)})
+    pointImg.on('click',function(station)  {updateStationInfo(station)})
     pointA.append(pointImg);
 
     // const pointText = $('<p></p>')
@@ -27,7 +27,7 @@ addNaviMenu = (station) => {
     const itemLink= document.createElement('a')
     itemLink.textContent =  station.name
     itemLink.href = '#station-info'
-    item.onclick = (stationg) => updateStationInfo(station);        
+    item.onclick = (station) => updateStationInfo(station);        
     item.append(itemLink)
   }
 
