@@ -75,7 +75,7 @@ window.onload = () => {
 
 
     // scroll//
-    $('#map-container a[href*="#"]').click(function () {
+    $('.map-container a[href*="#"]').click(function () {
     const elmHash = $(this).attr('href'); 
     const pos = $(elmHash).offset().top;	
     $('body,html').animate({scrollTop: pos}, 700); 

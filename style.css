@@ -70,6 +70,18 @@ li {
 .navi-map {
     width: 100%;
 }
+.map-open #mask {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    cursor: pointer;
+    display: block;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
 .map-open #map-mask {
     background-color: #000;
     cursor: pointer;
@@ -83,10 +95,11 @@ li {
 }
 #map-container {
     background-color: #2653d7;
+    height: auto;
     padding: 10px;
     position: fixed;
-    left: 0;
-    bottom: 0px;
+    top: 0;
+    transform: translateY(25%);
     opacity: 0;
     overflow-y: auto;
     transition: 0.5s;
@@ -307,18 +320,6 @@ dl #each-info:nth-child(odd) {
         left: 0;
         opacity: 1;
     }
-    .open #mask {
-        width: 100%;
-        height: 100%;
-        background-color: #000;
-        cursor: pointer;
-        display: block;
-        opacity: 0.7;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 10;
-    }
     #navi {
         padding: 300px;
         background-color: #2653d7;
@@ -357,31 +358,20 @@ dl #each-info:nth-child(odd) {
         z-index: 20;
         display: block;
     }
-    .map-open #map-mask {
-        width: 100%;
-        height: 100%;
-        background-color: #000;
-        cursor: pointer;
-        display: block;
-        opacity: 0.7;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 11;
-    }
     #map-container {
         background-color: #2653d7;
         padding: 5px;
         position: fixed;
-        left: 0;
-        bottom: 0;
+        height: auto;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
         opacity: 0;
         overflow-y: auto;
         transition: 0.5s;
         z-index: 21;
     }
     .map-open #map-container {
-        bottom: 0;
         opacity: 1;
     }
     #station-info-title {
@@ -430,6 +420,7 @@ dl #each-info:nth-child(odd) {
     }
     #station-info-title {
         font-size: 50px;
+        justify-content: center;
     }
     .station-info-icon {
         width: 30px;
