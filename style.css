@@ -133,16 +133,14 @@ li {
     font-size: 70px;
     height: 80px;
     width: 100%;
-    padding-bottom: 20px;
     text-align: center;
     color: #2653d7;
     position: relative;
 }
-.maphamburger
 #station-info-image {
     display: flex;
     justify-content: space-between;
-    padding: 0px 25px 25px 25px;
+    padding: 25px;
 }
 #station-info-image img {
     width: 46%;
@@ -263,15 +261,23 @@ dl #each-info:nth-child(odd) {
         padding: 10px 0px;
      }
      .point {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #station-info-title {
+        padding-top: 80px;
+    }
+
+    #station-info-image {
+        padding-bottom: 35px;
     }
 
     #station-info-text dd {
-        font-size: 35px;
+        font-size: 30px;
     }
     #station-info-text dt {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .hamburger {
@@ -374,9 +380,6 @@ dl #each-info:nth-child(odd) {
     .map-open #map-container {
         opacity: 1;
     }
-    #station-info-title {
-        padding-top: 70px;
-    }
     #info-facility-item {
         width: 240px;
     }
@@ -420,19 +423,18 @@ dl #each-info:nth-child(odd) {
     }
     #station-info-title {
         font-size: 50px;
-        justify-content: center;
     }
     .station-info-icon {
         width: 30px;
         height: 30px;
     }
     #station-info-text dt {
-        font-size: 20px;
+        font-size: 15px;
         width: auto;
         border-right: none;
     }
     #station-info-text dd {
-        font-size: 20px;
+        font-size: 15px;
         padding-left: 52px;
         border-top: dotted 2px #2653d7;
         width: 100%;
