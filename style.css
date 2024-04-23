@@ -36,12 +36,8 @@ li {
 .map-img {
     width: 200px;
 }
-.map-container {
-    display: none;
-}
 .site-title {
-    padding-top: 150px;
-    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 /* nav*/
@@ -61,8 +57,6 @@ li {
 
 .map-hamburger {
     cursor: pointer;
-    position: fixed;
-    align-items: center;
     transition: 0.5s;
     z-index: 20;
     display: block;
@@ -70,7 +64,7 @@ li {
 .navi-map {
     width: 100%;
 }
-.map-open #mask {
+.open-map #mask {
     width: 100%;
     height: 100%;
     background-color: #000;
@@ -82,18 +76,7 @@ li {
     left: 0;
     z-index: 10;
 }
-.map-open #map-mask {
-    background-color: #000;
-    cursor: pointer;
-    display: block;
-    opacity: 0.7;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 11;
-    width: 100%;
-}
-#map-container {
+#map {
     background-color: #2653d7;
     height: auto;
     padding: 10px;
@@ -105,14 +88,12 @@ li {
     transition: 0.5s;
     z-index: 21;
 }
-.map-open #map-container {
-    display: block;
-    left: 0;
+.open-map #map {
     opacity: 1;
 }
 
 /* map */
-.map-container {
+.map {
     position: relative;
     width: 100%;
 }
@@ -258,7 +239,6 @@ dl #each-info:nth-child(odd) {
         list-style: none;
         border: #fff solid 3px;
         border-radius: 5px;
-        padding: 10px 0px;
      }
      .point {
         width: 30px;
@@ -310,21 +290,17 @@ dl #each-info:nth-child(odd) {
     .hamburger span:nth-child(3) {
         bottom: 4px;
     }
-    .open .hamburger span {
+    .open-navi .hamburger span {
         background-color: #fff;
     }
-    .open .hamburger span:nth-child(1) {
+    .open-navi .hamburger span:nth-child(1) {
       transform: translateY(10px) rotate(-315deg);
     }
-    .open .hamburger span:nth-child(2) {
+    .open-navi .hamburger span:nth-child(2) {
       opacity: 0;
     }
-    .open .hamburger span:nth-child(3) {
+    .open-navi .hamburger span:nth-child(3) {
       transform: translateY(-10px) rotate(315deg);
-    }
-    .open #navi {
-        left: 0;
-        opacity: 1;
     }
     #navi {
         padding: 300px;
@@ -339,7 +315,7 @@ dl #each-info:nth-child(odd) {
         transition: 0.5s;
         z-index: 20;
     }
-    .open #navi {
+    .open-navi #navi {
         bottom: 0;
         opacity: 1;
     }
@@ -356,7 +332,6 @@ dl #each-info:nth-child(odd) {
     }
     .map-hamburger {
         cursor: pointer;
-        position: fixed;
         align-items: center;
         top: 12px;
         left: 18px;
@@ -364,7 +339,7 @@ dl #each-info:nth-child(odd) {
         z-index: 20;
         display: block;
     }
-    #map-container {
+    #map {
         background-color: #2653d7;
         padding: 5px;
         position: fixed;
@@ -377,7 +352,7 @@ dl #each-info:nth-child(odd) {
         transition: 0.5s;
         z-index: 21;
     }
-    .map-open #map-container {
+    .open-map #map {
         opacity: 1;
     }
     #info-facility-item {

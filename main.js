@@ -1,5 +1,5 @@
 addMarker = (station) => {
-    const container = $('#map-container');
+    const container = $('#map');
 
     const pointA = $('<a></a>');
     pointA.attr =('href', `#station-info`);
@@ -11,7 +11,10 @@ addMarker = (station) => {
     pointImg.addClass('point');
     pointImg.css('left',`${station.mapX}%`);
     pointImg.css('top',`${station.mapY}%`);
-    pointImg.on('click',function(event)  {updateStationInfo(station)})
+    pointImg.on('click',function(event)  {
+        updateStationInfo(station);
+        clearOpenClasses();
+    })
     pointA.append(pointImg);
 
     // const pointText = $('<p></p>')
@@ -44,38 +47,46 @@ window.onload = () => {
 
 
     // hamburger
+    const clearOpenClasses = () => {
+        $('#header').removeClass('open');
+        $('#header').removeClass('open-navi')
+        $('#header').removeClass('open-map')
+    }
     $('hamburger').on('click',function() {
         if ($('#header').hasClass('open')) {
-          $('#header').removeClass('open');
+          clearOpenClasses();
         } else {
-            $('#header').addClass('open');
+            $('#header').addClass('open')
+            $('#header').addClass('open-navi')
         }
     });
+
     $('#mask').on('click', function() {
-        $('#header').removeClass('open');
+        clearOpenClasses();
     });
     $('#navi').on('click', function() {
-        $('#header').removeClass('open');
+        clearOpenClasses();
     })
 
     // map-hamburger
     $('#map-hamburger').on('click',function() {
-        if ($('.header').hasClass('map-open')) {
-          $('.header').removeClass('map-open');
+        if ($('.header').hasClass('open-map')) {
+          clearOpenClasses();
         } else {
-            $('.header').addClass('map-open');
+            $('.header').addClass('open');
+            $('.header').addClass('open-map');
         }
     });
-    $('#map-mask').on('click', function() {
-        $('.header').removeClass('map-open');
+    // $('#map-mask').on('click', function() {
+    //     $('.header').removeClass('open-map');
+    // });
+    $('#map').on('click', function() {
+        clearOpenClasses();
     });
-    $('#map-container').on('click', function() {
-        $('.header').removeClass('map-open');
-    })
 
 
     // // scroll//
-    // $('.map-container a[href*="#"]').click(function () {
+    // $('.map a[href*="#"]').click(function () {
     // const elmHash = $(this).attr('href'); 
     // const pos = $(elmHash).offset().top;	
     // $('body,html').animate({scrollTop: pos}, 700); 
