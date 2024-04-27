@@ -53,7 +53,7 @@ window.onload = () => {
 
     // hamburger
     
-    $('hamburger').on('click',function() {
+    $('#hamburger').on('click',function() {
         if ($('#header').hasClass('open')) {
           clearOpenClasses();
         } else {
