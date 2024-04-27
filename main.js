@@ -1,5 +1,5 @@
 addMarker = (station) => {
-    const container = $('#map');
+    const container = $('#map-container');
 
     const pointA = $('<a></a>');
     pointA.attr =('href', `#station-info`);
@@ -28,12 +28,17 @@ addNaviMenu = (station) => {
     const item = document.createElement('li')        
     list.append(item)
     const itemLink= document.createElement('a')
-    itemLink.textContent =  station.name
-    itemLink.href = '#station-info'
+    itemLink.textContent = station.name;
+    itemLink.href = '#station-info';
     item.onclick = (event) => updateStationInfo(station);        
     item.append(itemLink)
-  }
+  };
 
+  const clearOpenClasses = () => {
+    $('#header').removeClass('open');
+    $('#header').removeClass('open-navi')
+    $('#header').removeClass('open-map')
+}
 
 // ドキュメントが読みこまれたら実行する関数を定義
 window.onload = () => {
@@ -47,11 +52,7 @@ window.onload = () => {
 
 
     // hamburger
-    const clearOpenClasses = () => {
-        $('#header').removeClass('open');
-        $('#header').removeClass('open-navi')
-        $('#header').removeClass('open-map')
-    }
+    
     $('hamburger').on('click',function() {
         if ($('#header').hasClass('open')) {
           clearOpenClasses();
@@ -66,10 +67,10 @@ window.onload = () => {
     });
     $('#navi').on('click', function() {
         clearOpenClasses();
-    })
+    });
 
     // map-hamburger
-    $('#map-hamburger').on('click',function() {
+    $('#map-hamburger').on('click',function () {
         if ($('.header').hasClass('open-map')) {
           clearOpenClasses();
         } else {
@@ -77,10 +78,7 @@ window.onload = () => {
             $('.header').addClass('open-map');
         }
     });
-    // $('#map-mask').on('click', function() {
-    //     $('.header').removeClass('open-map');
-    // });
-    $('#map').on('click', function() {
+    $('#map-container').on('click', function() {
         clearOpenClasses();
     });
 
