@@ -36,7 +36,7 @@ li {
 .map-img {
     width: 200px;
 }
-.map-contianer {
+.map-container {
     display: none;
 }
 .site-title {
@@ -81,7 +81,7 @@ li {
     left: 0;
     z-index: 10;
 }
-#map {
+#map-container {
     background-color: #2653d7;
     height: auto;
     padding: 10px;
@@ -297,16 +297,16 @@ dl #each-info:nth-child(odd) {
     .hamburger span:nth-child(3) {
         bottom: 4px;
     }
-    .open-navi .hamburger span {
+    .open .hamburger span {
         background-color: #fff;
     }
-    .open-navi .hamburger span:nth-child(1) {
+    .open .hamburger span:nth-child(1) {
       transform: translateY(10px) rotate(-315deg);
     }
-    .open-navi .hamburger span:nth-child(2) {
+    .open .hamburger span:nth-child(2) {
       opacity: 0;
     }
-    .open-navi .hamburger span:nth-child(3) {
+    .open .hamburger span:nth-child(3) {
       transform: translateY(-10px) rotate(315deg);
     }
     .open-navi #navi {
@@ -351,7 +351,7 @@ dl #each-info:nth-child(odd) {
         z-index: 20;
         display: block;
     }
-    #map {
+    #map-container {
         background-color: #2653d7;
         padding: 5px;
         position: fixed;
@@ -364,7 +364,7 @@ dl #each-info:nth-child(odd) {
         transition: 0.5s;
         z-index: 21;
     }
-    .open-map #map {
+    .open-map #map-container {
         opacity: 1;
     }
     #info-facility-item {
