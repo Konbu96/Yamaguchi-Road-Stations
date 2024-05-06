@@ -16,6 +16,9 @@ addMarker = (station) => {
         clearOpenClasses();
     })
     pointA.append(pointImg);
+    const hoverText = document.createElement('span')
+    hoverText.textContent = station.name
+    pointImg.append(hoverText);
 
     // const pointText = $('<p></p>')
     // pointText.text(station.name);
@@ -27,7 +30,7 @@ addNaviMenu = (station) => {
     const list = $('#navi-list')
     const item = document.createElement('li')        
     list.append(item)
-    const itemLink= document.createElement('a')
+    const itemLink = document.createElement('a')
     itemLink.textContent = station.name;
     itemLink.href = '#station-info';
     item.onclick = (event) => updateStationInfo(station);        
@@ -83,13 +86,6 @@ window.onload = () => {
     });
 
 
-    // // scroll//
-    // $('.map a[href*="#"]').click(function () {
-    // const elmHash = $(this).attr('href'); 
-    // const pos = $(elmHash).offset().top;	
-    // $('body,html').animate({scrollTop: pos}, 700); 
-    // return false;
-    // });
 }
 // 駅情報更新
 updateStationInfo = (station) => {
