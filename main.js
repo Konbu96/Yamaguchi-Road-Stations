@@ -6,19 +6,26 @@ addMarker = (station) => {
     // pointA.addClass('point');
     container.append(pointA);
 
+    const div = $('<div></div>')
+      div.addClass('point');
+      div.css('left',`${station.mapX}%`);
+      div.css('top',`${station.mapY}%`);
+      pointA.append(div);
+
     const pointImg = $('<img>');
     pointImg.attr('src', "img/symbol.bmp")
-    pointImg.addClass('point');
-    pointImg.css('left',`${station.mapX}%`);
-    pointImg.css('top',`${station.mapY}%`);
+    //pointImg.addClass('point');
+    //pointImg.css('left',`${station.mapX}%`);
+    //pointImg.css('top',`${station.mapY}%`);
     pointImg.on('click',function(event)  {
         updateStationInfo(station);
         clearOpenClasses();
-    })
-    pointA.append(pointImg);
-    const hoverText = document.createElement('span')
+    });
+    div.append(pointImg);
+    const hoverText = document.createElement('p')
     hoverText.textContent = station.name
-    pointImg.append(hoverText);
+    hoverText.style.color = 'black'
+    div.append(hoverText);
 
     // const pointText = $('<p></p>')
     // pointText.text(station.name);

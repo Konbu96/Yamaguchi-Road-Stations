@@ -42,7 +42,7 @@ li {
 #map-container a {
     height: 1px;
 }
-#map-container span {
+/* #map-container span {
     opacity: 0;
     transition: 0.5s;
     background: #d5d7fc;
@@ -58,7 +58,7 @@ li {
     border-radius: 5px;
     visibility: hidden;
     pointer-events: none;
-}
+} */
 #map-container a::before {
     opacity: 0;
     transition: 0.5s;
