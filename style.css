@@ -151,8 +151,12 @@ li {
     position: absolute;
     cursor: pointer;
     transform: translate(-50%, 0);
-    width: 40px;
+    width: 200px;
     height: 40px;
+}
+.point img {
+    width: 30px;
+    height: 30px;
 }
 
 
