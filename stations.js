@@ -2,7 +2,7 @@
   const stations = [
     {
       name: 'あいお',
-      address: '山口市秋穂東1520-4	',
+      address: '山口市秋穂東1520-4',
       tel: '083-984-5704',
       time: '9:00 〜 18:00',
       parking: '24',
@@ -11,7 +11,8 @@
       stationImage:'img/stations_photo_new/01_aio_station.jpg',
       mapX: '39.1',
       mapY: '59.9',
-      facilities : "park,shop,toilet,cafe,restaurant",
+      facilities: "park,shop,toilet,cafe,restaurant",
+      official: 'https://michinoeki-aio.com/',
     },
     {
       name: 'あさひ',
@@ -25,6 +26,7 @@
       mapX: '39.8',
       mapY: '39.1',
       facilities : "park,shop,toilet,restaurant,babyBed",
+      official: 'https://www.hagishi.com/search/detail.php?d=1100186',
     },
     {
       name: '阿武町',
@@ -38,6 +40,7 @@
       mapX: '41.4',
       mapY: '20.6',
       facilities : "park,guide,shop,hotSpring,toilet,babyBed,cafe,restaurant",
+      official: 'https://www.abucreation.com/',
     },
     {
       name: 'うり坊の郷',
@@ -51,6 +54,7 @@
       mapX: '49.3',
       mapY: '21.3',
       facilities : "shop,cafe,toilet",
+      official: 'http://www.hagi.machi-navi.jp/html/specialty_85.html',
     },
     {
       name: 'おふく',
@@ -64,6 +68,7 @@
       mapX: '25.8',
       mapY: '41.5',
       facilities : "shop,hotSpring,toilet,babyBed,cafe,restaurant",
+      official: 'https://www.michinoeki-ofuku.jp/',
     },
     {
       name: '上関海峡',
@@ -77,6 +82,7 @@
       mapX: '75.5',
       mapY: '74.3',
       facilities : "guide,shop,toilet,cafe,restaurant",
+      official: 'https://kaminoseki-kaikyo.jp/',
     },
     {
       name: '願成就温泉',
@@ -90,6 +96,7 @@
       mapX: '54.5',
       mapY: '26.7',
       facilities : "guide,shop,hotSpring,toilet,babyBed,restaurant",
+      official: 'https://www.ganjojuonsen.com/',
     },
     {
       name: 'きくがわ',
@@ -103,6 +110,7 @@
       mapX: '17.9',
       mapY: '52',
       facilities : "guide,shop,toilet,cafe,restaurant",
+      official: 'http://michinoekikikugawa.co.jp/',
     },
     {
       name: '北浦街道 豊北',
@@ -116,6 +124,7 @@
       mapX: '10.5',
       mapY: '37.3',
       facilities : "guide,shop,toilet,babyBed,cafe,restaurant",
+      official: 'https://michinoeki-houhoku.jp/',
     },
     {
       name: 'きららあじす',
@@ -129,6 +138,7 @@
       mapX: '33',
       mapY: '63.2',
       facilities : "shop,toilet,cafe,restaurant,babyBed",
+      official: 'https://kiraraajisu.jp/',
     },
     {
       name: 'サザンセトとうわ',
@@ -143,6 +153,7 @@
       mapX: '83',
       mapY: '72.0',
       facilities : "park,guide,shop,toilet,cafe,restaurant,babyBed",
+      official: 'https://sazan-seto.com/',
     },
     {
       name: '潮彩市場防府',
@@ -157,6 +168,7 @@
       mapX: '47',
       mapY: '58.5',
       facilities : "cafe,restaurant,park,guide,shop,toilet",
+      official: 'https://www.shiosai-hofu.com/',
     },
     {
       name: 'センザキッチン',
@@ -171,6 +183,7 @@
       mapX: '25.8',
       mapY: '28.8',
       facilities : "guide,shop,toilet,shower,babyBed,cafe,restaurant,museum",
+      official: '',
     },
     {
       name: 'ソレーネ周南',
@@ -185,6 +198,7 @@
       mapX: '53.1',
       mapY: '59.2',
       facilities : "park,guide,shop,toilet,babyBed,cafe,restaurant",
+      official: 'https://www.solene.jp/',
     },
     {
       name: '長門峡',
@@ -198,6 +212,7 @@
       mapX: '46.1',
       mapY: '37.2',
       facilities : "park,shop,toilet,restaurant,babyBed",
+      official: 'https://kunkunodaichi.com/',
     },
     {
       name: '仁保の郷',
@@ -211,6 +226,7 @@
       mapX: '43.9',
       mapY: '44.7',
       facilities : "park,shop,toilet,cafe,restaurant,babyBed",
+      official: 'https://www.nihonosato.com/',
     },
     {
       name: '萩往還',
@@ -224,6 +240,7 @@
       mapX: '37.9',
       mapY: '32.7',
       facilities : "park,guide,shop,toilet,cafe,restaurant,museum,babyBed",
+      official: 'https://www.hagioukan.com/wp/',
     },
     {
       name: 'さんさん三見',
@@ -237,6 +254,7 @@
       mapX: '32.4',
       mapY: '30.0',
       facilities : "shop,toilet,restaurant",
+      official: 'https://www.akeishi.net/',
     },
     {
       name: '萩しーまーと',
@@ -251,6 +269,7 @@
       mapX: '37.9',
       mapY: '26.2',
       facilities : "cafe,restaurant,park,shop,toilet,babyBed",
+      official: 'http://seamart.axis.or.jp/',
     },
     {
       name: 'ハピネスふくえ',
@@ -264,6 +283,7 @@
       mapX: '41.6',
       mapY: '26.2',
       facilities : "restaurant,park,shop,toilet,babyBed",
+      official: 'https://hagi-gochi.jp/buy/hapiness_fukue',
     },
     {
       name: 'ピュアラインにしき',
@@ -277,6 +297,7 @@
       mapX: '66.5',
       mapY: '42',
       facilities : "cafe,restaurant,park,shop,toilet,babyBed",
+      official: 'https://pureline-nishiki.com/',
     },
     {
       name: '蛍街道西ノ市',
@@ -290,6 +311,7 @@
       mapX: '20',
       mapY: '46',
       facilities : "cafe,restaurant,guide,shop,hotSpring,toilet,babyBed",
+      official: 'https://toyota-hotaru.com/',
     },
     {
       name: 'みとう',
@@ -303,6 +325,7 @@
       mapX: '32.8',
       mapY: '44.6',
       facilities : "park,cafe,restaurant,guide,shop,toilet,babyBed",
+      official: 'https://karusuto.com/spot/michinoekimito/',
     },
     {
       name: 'ゆとりパークたまがわ',
@@ -316,5 +339,6 @@
       mapX: '50.6',
       mapY: '8.9',
       facilities : "park,shop,restaurant,toiletf",
+      official: 'https://www.yutoripark-tamagawa.com/',
     },
   ];
