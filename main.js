@@ -38,8 +38,8 @@ addNaviMenu = (station) => {
     const item = $('<li></li>')        
     list.append(item)
     const itemLink = $('<a></a>')
-    itemLink.textContent = station.name;
-    itemLink.href = '#station-info';
+    .text('station.name')
+    .attr('href' , '#station-info');
     item.onclick = (event) => updateStationInfo(station);        
     item.append(itemLink)
   };
