@@ -22,9 +22,9 @@ addMarker = (station) => {
         clearOpenClasses();
     });
     div.append(pointImg);
-    const hoverText = document.createElement('p')
-    hoverText.textContent = station.name
-    hoverText.style.color = 'black'
+    const hoverText = $('<p></p>')
+    .text(station.name)
+    .css('color' , 'black')
     div.append(hoverText);
 
     // const pointText = $('<p></p>')
@@ -35,9 +35,9 @@ addMarker = (station) => {
 // navi
 addNaviMenu = (station) => {
     const list = $('#navi-list')
-    const item = document.createElement('li')        
+    const item = $('<li></li>')        
     list.append(item)
-    const itemLink = document.createElement('a')
+    const itemLink = $('<a></a>')
     itemLink.textContent = station.name;
     itemLink.href = '#station-info';
     item.onclick = (event) => updateStationInfo(station);        
