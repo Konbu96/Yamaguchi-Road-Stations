@@ -94,6 +94,12 @@ window.onload = () => {
 
 
 }
+
+official = (station) => {
+    const officialButton = $('<a></a>');
+    officialButton.attr('href ', `#official-button`)
+}
+
 // 駅情報更新
 updateStationInfo = (station) => {
     // // 駅名
@@ -130,6 +136,6 @@ updateStationInfo = (station) => {
         })
     
     }
-    const facilities = ["park","guide","inn","shop","hotSpring","camp","museum","toilet","shower","babyBed","cafe","restaurant"]
+    const facilities = ["park","guide","inn","shop","hotSpring","camp","museum","toilet","shower","babyBed","cafe","restaurant","official",]
 
 

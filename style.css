@@ -403,7 +403,7 @@ dl #each-info:nth-child(odd) {
         list-style: none;
     }
     .map-img {
-        width: 90px;
+        width: 70px;
     }
     .map-hamburger {
         cursor: pointer;
