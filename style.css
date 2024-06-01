@@ -99,6 +99,15 @@ li {
     position: relative;
 }
 
+#official-div {
+    text-align: center;
+}
+
+#official a {
+    padding: 10px;
+
+}
+
 /* map-hamburger */
 
 .map-hamburger {
@@ -236,6 +245,22 @@ dl #each-info:nth-child(odd) {
     padding: 10px;
     height: 40px;
     width: 40px;
+}
+
+/* 公式サイト */
+#official-div {
+    color: #d5d7fc;
+    border-radius: 5px;
+    border: #2653d7 2px solid;
+    width: 250px;
+    margin: auto;
+}
+#official-button {
+    text-decoration: none;
+    color: #2653d7;
+    display: block;
+    padding: 10px;
+    font-size: 25px;
 }
 
 /* station-info+ */

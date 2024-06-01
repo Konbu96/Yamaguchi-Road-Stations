@@ -95,13 +95,13 @@ window.onload = () => {
 
 }
 
-official = (station) => {
-    const officialButton = $('<a></a>');
-    officialButton.attr('href ', `#official-button`)
-}
-
 // 駅情報更新
 updateStationInfo = (station) => {
+    // 詳細ボタン
+    // const officialButton = $('<a></a>');
+    $('#official-button').attr('href' , station.official);
+    
+
     // // 駅名
     $('#station-info-title').text(station.name);
 
@@ -120,6 +120,9 @@ updateStationInfo = (station) => {
     $('#station-parking').text(station.parking + '台');
     // ソフトクリーム
     $('#station-cream').text(station.cream);
+
+    // 公式サイト
+
 
     // 設備更新
     $('station-info-facilities').empty();
