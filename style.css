@@ -89,18 +89,21 @@ li {
 #navi-list {
     padding: 0;
 }
+#navi-list li {
+    padding: 3.3px;
+}
 #navi-list a {
     color: #fff;
     text-decoration: none;
     display: block;
-    padding: 8.3px;
+    padding: 5px;
     font-size: 20px;
     position: relative;
     transition-duration: 500ms;
 }
 #navi-list a:hover {
-    background-color: #d5d7fc;
-    color: #2653d7;
+    background-color: #4875f9;
+    border-radius: 10px;
 }
 
 
