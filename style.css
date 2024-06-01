@@ -89,15 +89,20 @@ li {
 #navi-list {
     padding: 0;
 }
-#navi-list li {
-    padding: 8.3px;
-}
 #navi-list a {
     color: #fff;
     text-decoration: none;
+    display: block;
+    padding: 8.3px;
     font-size: 20px;
     position: relative;
+    transition-duration: 500ms;
 }
+#navi-list a:hover {
+    background-color: #d5d7fc;
+    color: #2653d7;
+}
+
 
 #official-div {
     text-align: center;
