@@ -113,7 +113,6 @@ li {
 
 #official a {
     padding: 10px;
-
 }
 
 /* map-hamburger */
@@ -168,11 +167,12 @@ li {
     position: absolute;
     cursor: pointer;
     transform: translate(-50%, 0);
-    width: 160px;
+    width: 40px;
     height: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: visible;
 }
 .point img {
     width: 40px;
@@ -180,6 +180,7 @@ li {
 }
 .point p {
    display: none;
+   white-space: nowrap;
 }
 .point:hover p {
     display: block;
@@ -260,7 +261,7 @@ dl #each-info:nth-child(odd) {
     color: #d5d7fc;
     border-radius: 5px;
     border: #2653d7 2px solid;
-    width: 250px;
+    width: 500px;
     margin: auto;
 }
 #official-button {
@@ -269,6 +270,7 @@ dl #each-info:nth-child(odd) {
     display: block;
     padding: 10px;
     font-size: 25px;
+    transition-duration: 500ms;
 }
 
 /* station-info+ */
@@ -464,6 +466,9 @@ dl #each-info:nth-child(odd) {
     .open-map #map-container {
         opacity: 1;
     }
+    #official-div {
+        width: 400px;
+    }
     #info-facility-item {
         width: 240px;
     }
@@ -522,6 +527,12 @@ dl #each-info:nth-child(odd) {
         padding-left: 52px;
         border-top: dotted 2px #2653d7;
         width: 100%;
+    }
+    #official-div {
+        width: 250px;
+    }
+    #official-button {
+        font-size: 15px;
     }
     #info-facility-item {
         width: 150px;
