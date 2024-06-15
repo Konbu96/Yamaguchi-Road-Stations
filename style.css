@@ -312,7 +312,7 @@ dl #each-info:nth-child(odd) {
 }
 
 /* footer */ 
-.footer {
+#footer {
     padding: 5px;
     height: auto;
     margin: 0;
@@ -320,11 +320,18 @@ dl #each-info:nth-child(odd) {
     color: #fff;
     font-size: 25px;
 }
-.footer p {
+#footer-div {
     text-align: center;
-    padding: 15px 0;
+    padding: 10px 0;
     border: #fff solid 3px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+#footer-github {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
 }
 
 @media (max-width: 960px) {
