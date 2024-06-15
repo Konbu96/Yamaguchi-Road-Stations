@@ -197,11 +197,12 @@ li {
 }
 #station-info-title {
     font-size: 70px;
-    height: 80px;
     width: 100%;
     text-align: center;
     color: #2653d7;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #station-info-image {
     display: flex;
@@ -486,7 +487,7 @@ dl #each-info:nth-child(odd) {
 }
 @media (max-width: 600px) {
     .site-title {
-       font-size: 30px;
+       font-size: 25px;
     }
     .point {
        width: 25px;
@@ -511,7 +512,7 @@ dl #each-info:nth-child(odd) {
         width: 100%;
     }
     #station-info-title {
-        font-size: 50px;
+        font-size: 40px;
     }
     .station-info-icon {
         width: 30px;
@@ -545,6 +546,9 @@ dl #each-info:nth-child(odd) {
         height: 30px;
     }
     .map-img {
-        width: 65px;
+        width: 55px;
+    }
+    .map-hamburger { 
+        left: 14px;
     }
 }
