@@ -264,16 +264,21 @@ dl #each-info:nth-child(odd) {
     border: #2653d7 2px solid;
     width: 500px;
     margin: auto;
+    transition: 500ms;
 }
 #official-button {
-    text-decoration: none;
     color: #2653d7;
+    text-decoration: none;
     display: block;
     padding: 10px;
     font-size: 25px;
+}
+#official-button:hover {
+    background-color: #2653d7;
+    color: #d5d7fc;
+    border: #d5d7fc 2px solid;
     transition-duration: 500ms;
 }
-
 /* station-info+ */
 #station-info-facility {
     padding: 25px;
