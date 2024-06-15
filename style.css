@@ -264,7 +264,6 @@ dl #each-info:nth-child(odd) {
     border: #2653d7 2px solid;
     width: 500px;
     margin: auto;
-    transition: 500ms;
 }
 #official-button {
     color: #2653d7;
@@ -272,12 +271,11 @@ dl #each-info:nth-child(odd) {
     display: block;
     padding: 10px;
     font-size: 25px;
+    transition: 0.5s;
 }
 #official-button:hover {
     background-color: #2653d7;
-    color: #d5d7fc;
-    border: #d5d7fc 2px solid;
-    transition-duration: 500ms;
+    color: #fff;
 }
 /* station-info+ */
 #station-info-facility {
