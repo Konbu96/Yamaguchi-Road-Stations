@@ -5,6 +5,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="slick.css" />
+        <link rel="stylesheet" href="slick-theme.css" />
+        <link rel="stylesheet" href="style.css" />
     </head>
     <header class="header" id="header">
         <div class="header-text">
@@ -37,13 +40,16 @@
                 <div id="station-info" class="station-info">
                     <h3 id="station-info-title"></h3>
                     <div id="station-info-image">
+                        <ul class="slide_items"></ul>
+                    </div>
+                    <!-- <div id="station-info-image">
                         <img src="" alt="" id="station-image">
                         <img src="" alt="" id="board-image">
-                    </div>
+                    </div> -->
 
                     <!-- カルーセル -->
                     <div id="carousel">
-                        <div id="containts">
+                        <!-- <div id="containts">
                             <input class="slide-img" id="img-A" type="radio" name="slide_check" checked>
                             <input class="slide-img" id="img-B" type="radio" name="slide_check">
                             <input class="slide-img" id="img-C" type="radio" name="slide_check">
@@ -56,7 +62,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>    
+                    </div>     -->
 
                     <dl id="station-info-text" class="station-info-text">
                         <div id="each-info" class="border">
@@ -158,12 +164,20 @@
                          <a href="https://github.com/Konbu96?tab=repositories" target="_blank">
                             <img src="img/github.svg" alt="git-hub" id="footer-github">
                          </a>
-                         <p>Yamaguti-Road-stations</p>
+                         <p>Yamaguchi-Road-stations</p>
                      </div>
                 </footer>
             </main>
         </div>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="stations.js"></script>
+        <script src="main.js"></script>
+        <script
+          src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous"
+        ></script>
+        <script src="slick.min.js"></script>
         <script src="stations.js"></script>
         <script src="main.js"></script>
     </body> 

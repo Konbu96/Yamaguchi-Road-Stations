@@ -105,10 +105,33 @@ updateStationInfo = (station) => {
     // // 駅名
     $('#station-info-title').text(station.name);
 
-    // 画像station
-    $('#station-image').attr('src',station.stationImage).attr('alt',station.name + 'の風景');
-    // 画像board
-    $('#board-image').attr('src',station.boardImage).attr('alt',station.name + 'の風景')
+    // // 画像station
+    // $('#station-image').attr('src',station.stationImage).attr('alt',station.name + 'の風景');
+    // // 画像board
+    // $('#board-image').attr('src',station.boardImage).attr('alt',station.name + 'の風景')
+    
+    //カルーセルに登録する画像
+    const images = [station.stationImage, station.boardImage];
+    //カルーセル　画像更新
+    const slide_items = $('.slide_items');
+    slide_items.empty();
+    images.forEach((image, inedx) => {
+        const listItem = $('<li></li>');
+        const img = $('<img>')
+          .attr('src', image)
+          .attr('alt', `${station.name}の風景${index + 1}`)
+        listItem.append(img);
+        slade_items.append(listItem);
+    });
+    
+    slide_items.slick({
+        dots: true,
+        Infinity: true,
+        speed: 500,
+        fade: true,
+        cssEsse: 'linear',
+        autoplay: true,
+    });
 
     // 住所
     $('#station-address').text(station.address);

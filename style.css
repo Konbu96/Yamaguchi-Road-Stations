@@ -205,14 +205,16 @@ li {
     justify-content: center;
 }
 #station-info-image {
-    display: flex;
-    justify-content: space-between;
+    width: 640px;
+    height: 480px;
     padding: 25px;
+    background-color: #d5d7fc;
+    margin: 25px auto;
 }
 #station-info-image img {
-    width: 46%;
-    border: 10px solid #2653d7;
-    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .border {
     border-top:  solid 1px #2653d7;
@@ -366,9 +368,9 @@ dl #each-info:nth-child(odd) {
         padding-top: 80px;
     }
 
-    #station-info-image {
+    /* #station-info-image {
         padding-bottom: 35px;
-    }
+    } */
 
     #station-info-text dd {
         font-size: 30px;
@@ -510,13 +512,13 @@ dl #each-info:nth-child(odd) {
     .hamburger {
         top: 20px;
     }
-    #station-info-image {
+    /* #station-info-image {
         flex-direction: column;
     }
     #station-info-image img {
         width: 95%;
         margin: 10px 0px;
-    }
+    } */
     #info-item {
         border-right: none;
         width: 100%;

@@ -7,8 +7,12 @@
       time: '9:00 〜 18:00',
       parking: '24',
       cream: 'なし',
-      boardImage:'img/stations_photo_new/01_aio_board.jpg',
-      stationImage:'img/stations_photo_new/01_aio_station.jpg',
+      // boardImage:'img/stations_photo_new/01_aio_board.jpg',
+      // stationImage:'img/stations_photo_new/01_aio_station.jpg',
+      images: [
+        'img/stations_photo_new/01_aio_board.jpg',
+        'img/stations_photo_new/01_aio_station.jpg'
+      ],
       mapX: '39.1',
       mapY: '59.9',
       facilities: "park,shop,toilet,cafe,restaurant",
