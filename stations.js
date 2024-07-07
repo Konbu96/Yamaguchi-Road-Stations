@@ -1,4 +1,3 @@
-
   const stations = [
     {
       name: 'あいお',
