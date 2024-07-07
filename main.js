@@ -115,15 +115,15 @@ updateStationInfo = (station) => {
     //カルーセル　画像更新
     const slide_items = $('.slide_items');
     slide_items.empty();
-    images.forEach((image, inedx) => {
+    images.forEach((image, index) => {
         const listItem = $('<li></li>');
         const img = $('<img>')
           .attr('src', image)
           .attr('alt', `${station.name}の風景${index + 1}`)
         listItem.append(img);
-        slade_items.append(listItem);
+        slide_items.append(listItem);
     });
-    
+
     slide_items.slick({
         dots: true,
         Infinity: true,
