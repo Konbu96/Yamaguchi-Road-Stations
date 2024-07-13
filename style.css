@@ -204,12 +204,21 @@ li {
     align-items: center;
     justify-content: center;
 }
+.slide_items {
+    margin: 0px;
+    padding: 0px;
+}
+.slick-slide {
+    justify-content: center;
+    margin: auto;
+}
 #station-info-image {
-    width: 640px;
+    width: auto;
     height: 480px;
     padding: 25px;
     background-color: #d5d7fc;
-    margin: 25px auto;
+    margin:
+    25px auto;
 }
 #station-info-image img {
     width: 100%;
@@ -512,13 +521,13 @@ dl #each-info:nth-child(odd) {
     .hamburger {
         top: 20px;
     }
-    /* #station-info-image {
-        flex-direction: column;
+    #station-info-image {
+        height: 300px;
     }
     #station-info-image img {
         width: 95%;
         margin: 10px 0px;
-    } */
+    } 
     #info-item {
         border-right: none;
         width: 100%;
