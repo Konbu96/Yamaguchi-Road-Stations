@@ -212,18 +212,11 @@ li {
     justify-content: center;
     margin: auto;
 }
-#station-info-image {
-    width: auto;
-    height: 480px;
-    padding: 25px;
-    background-color: #d5d7fc;
-    margin:
-    25px auto;
-}
 #station-info-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: relative;
 }
 .border {
     border-top:  solid 1px #2653d7;
@@ -232,6 +225,7 @@ li {
     padding: 0px 25px 25px 25px;
     display: flex;
     flex-wrap: wrap;
+    /* position: absolute; */
 }
 #each-info {
     display: flex;
@@ -380,6 +374,15 @@ dl #each-info:nth-child(odd) {
     /* #station-info-image {
         padding-bottom: 35px;
     } */
+
+    
+#station-info-image {
+    width: 75%;
+    height: 480px;
+    padding: 25px;
+    background-color: #d5d7fc;
+    margin:25px auto;
+}
 
     #station-info-text dd {
         font-size: 30px;

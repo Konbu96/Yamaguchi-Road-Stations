@@ -32,6 +32,8 @@ addMarker = (station) => {
     // pointA.append(pointText);
 
 };
+
+
 // navi
 addNaviMenu = (station) => {
     const list = $('#navi-list')
