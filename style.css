@@ -473,6 +473,13 @@ dl #each-info:nth-child(odd) {
     #navi-list li {
         list-style: none;
     }
+    #station-info-facility {
+        padding: 25px;
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .map-img {
         width: 70px;
     }

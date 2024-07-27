@@ -111,12 +111,11 @@ updateStationInfo = (station) => {
     $('#station-info-title').text(station.name);
 
     
-    //カルーセルに登録する画像
-    const images = [station.stationImage, station.boardImage];
+    
     //カルーセル　画像更新
     const slide_items = $('.slide_items');
     slide_items.empty();
-    images.forEach((image, index) => {
+    station.images.forEach((image, index) => {
         const listItem = $('<li></li>');
         const img = $('<img>')
           .attr('src', image)
