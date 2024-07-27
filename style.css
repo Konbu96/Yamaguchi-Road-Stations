@@ -204,9 +204,13 @@ li {
     align-items: center;
     justify-content: center;
 }
+.slick-track {
+    display: none;
+}
 .slide_items {
     margin: 0px;
     padding: 0px;
+    display: none;
 }
 .slick-slide {
     justify-content: center;
@@ -286,7 +290,7 @@ dl #each-info:nth-child(odd) {
 #station-info-facility {
     padding: 25px;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column;
     justify-content: center;
 }
 #info-facility-item {
@@ -374,15 +378,22 @@ dl #each-info:nth-child(odd) {
     /* #station-info-image {
         padding-bottom: 35px;
     } */
+     
+    .slick-track {
+        display: block;
+}
+    .slide_items {
+        display: block;
+    }
 
     
-#station-info-image {
-    width: 75%;
-    height: 480px;
-    padding: 25px;
-    background-color: #d5d7fc;
-    margin:25px auto;
-}
+    #station-info-image {
+        width: 75%;
+        height: 480px;
+        padding: 25px;
+        background-color: #d5d7fc;
+        margin:25px auto;
+    }
 
     #station-info-text dd {
         font-size: 30px;

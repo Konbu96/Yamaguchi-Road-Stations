@@ -32,6 +32,9 @@ addMarker = (station) => {
     // pointA.append(pointText);
 
 };
+stationBackground = (station) => {
+    $('#station-info').css('background-image' , 'url(station.boardImage)')
+}
 
 
 // navi
@@ -107,10 +110,6 @@ updateStationInfo = (station) => {
     // // 駅名
     $('#station-info-title').text(station.name);
 
-    // // 画像station
-    // $('#station-image').attr('src',station.stationImage).attr('alt',station.name + 'の風景');
-    // // 画像board
-    // $('#board-image').attr('src',station.boardImage).attr('alt',station.name + 'の風景')
     
     //カルーセルに登録する画像
     const images = [station.stationImage, station.boardImage];
