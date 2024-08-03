@@ -122,7 +122,7 @@ updateStationInfo = (station) => {
           .attr('alt', `${station.name}の風景${index + 1}`)
         listItem.append(img);
         slide_items.append(listItem);
-    });
+    })
 
     slide_items.slick({
         dots: true,
@@ -131,7 +131,19 @@ updateStationInfo = (station) => {
         fade: true,
         cssEsse: 'linear',
         autoplay: true,
-    });
+    })
+    
+    if (slide_items.hasClass('slick-initialized')) {
+        slide_items.slick('unslick');
+      }
+      slide_items.slick({
+        dots: true,
+        Infinity: true,
+        speed: 500,
+        fade: true,
+        cssEsse: 'linear',
+        autoplay: true,
+      });
 
     // 住所
     $('#station-address').text(station.address);

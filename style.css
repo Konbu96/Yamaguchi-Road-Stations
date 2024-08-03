@@ -42,23 +42,6 @@ li {
 #map-container a {
     height: 1px;
 }
-/* #map-container span {
-    opacity: 0;
-    transition: 0.5s;
-    background: #d5d7fc;
-    position: absolute;
-    color: #2653d7;
-    padding: 5px;
-    width: 100px;
-    bottom: calc(100% + 17px);
-    left: -25%;
-    box-sizing: border-box;
-    text-align: center;
-    word-wrap: break-word;
-    border-radius: 5px;
-    visibility: hidden;
-    pointer-events: none;
-} */
 #map-container a::before {
     opacity: 0;
     transition: 0.5s;
@@ -105,8 +88,6 @@ li {
     background-color: #4875f9;
     border-radius: 10px;
 }
-
-
 #official-div {
     text-align: center;
 }
@@ -193,7 +174,7 @@ li {
 
 /* station-info */
 .station-info {
-    padding-top: 10px;
+    padding: 10px 25px 0px 25px;
 }
 #station-info-title {
     font-size: 70px;
@@ -203,14 +184,16 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-.slick-track {
-    display: none;
+#station-info-image {
+    position: relative;
 }
 .slide_items {
     margin: 0px;
     padding: 0px;
-    display: none;
 }
 .slick-slide {
     justify-content: center;
@@ -220,16 +203,19 @@ li {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: relative;
 }
 .border {
     border-top:  solid 1px #2653d7;
 }
 .station-info-text {
-    padding: 0px 25px 25px 25px;
+    width: 600px;
+    padding: 0px 25px 25px 300px;
     display: flex;
     flex-wrap: wrap;
-    /* position: absolute; */
+    position: absolute;
+    left: 25;
+    bottom: 0;
+    position: absolute;
 }
 #each-info {
     display: flex;
@@ -273,6 +259,7 @@ dl #each-info:nth-child(odd) {
     border: #2653d7 2px solid;
     width: 500px;
     margin: auto;
+    position: absolute;
 }
 #official-button {
     color: #2653d7;
@@ -292,6 +279,9 @@ dl #each-info:nth-child(odd) {
     display: flex;
     flex-flow: column;
     justify-content: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 #info-facility-item {
     width: 285px;
@@ -375,16 +365,6 @@ dl #each-info:nth-child(odd) {
         padding-top: 80px;
     }
 
-    /* #station-info-image {
-        padding-bottom: 35px;
-    } */
-     
-    .slick-track {
-        display: block;
-}
-    .slide_items {
-        display: block;
-    }
 
     
     #station-info-image {
@@ -393,6 +373,11 @@ dl #each-info:nth-child(odd) {
         padding: 25px;
         background-color: #d5d7fc;
         margin:25px auto;
+    }
+    #station-info-text {
+        padding: 0px 0px 25px 0px;
+        position: relative;
+        width: auto;
     }
 
     #station-info-text dd {
@@ -479,6 +464,7 @@ dl #each-info:nth-child(odd) {
         flex-flow: row;
         flex-wrap: wrap;
         justify-content: center;
+        position: relative;
     }
     .map-img {
         width: 70px;
@@ -511,6 +497,7 @@ dl #each-info:nth-child(odd) {
     }
     #official-div {
         width: 400px;
+        position: relative;
     }
     #info-facility-item {
         width: 240px;
@@ -538,6 +525,7 @@ dl #each-info:nth-child(odd) {
     .station-info-title {
         width: 100%;
         font-size: 60px;
+        position: relative;
     }
     .hamburger {
         top: 20px;
