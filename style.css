@@ -175,21 +175,18 @@ li {
 /* station-info */
 .station-info {
     padding: 10px 25px 0px 25px;
+    position: relative;
 }
 #station-info-title {
     font-size: 70px;
-    width: 100%;
-    text-align: center;
     color: #2653d7;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 0;
-    left: 0;
-}
-#station-info-image {
-    position: relative;
+    z-index: 1;
+    top: 10;
+    left: 30;
 }
 .slide_items {
     margin: 0px;
@@ -209,12 +206,12 @@ li {
 }
 .station-info-text {
     width: 600px;
-    padding: 0px 25px 25px 300px;
+    padding-bottom: 25px;
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    left: 25;
-    bottom: 0;
+    left: 50;
+    bottom: 95;
     position: absolute;
 }
 #each-info {
@@ -246,10 +243,10 @@ li {
 dl #each-info:nth-child(odd) {
     background-color: #d5d7fc;
 }
-.station-info-icon {
+.station-info-icon { 
     padding: 10px;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 
 /* 公式サイト */
@@ -281,7 +278,7 @@ dl #each-info:nth-child(odd) {
     justify-content: center;
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 95;
 }
 #info-facility-item {
     width: 285px;
@@ -291,8 +288,8 @@ dl #each-info:nth-child(odd) {
     align-items: center;
 }
 #info-facility-item img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     padding-right: 10px;
 }
 .exist {
@@ -363,6 +360,7 @@ dl #each-info:nth-child(odd) {
 
     #station-info-title {
         padding-top: 80px;
+        text-align: center;
     }
 
 
