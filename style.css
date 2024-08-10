@@ -255,8 +255,7 @@ dl #each-info:nth-child(odd) {
     border-radius: 5px;
     border: #2653d7 2px solid;
     width: 500px;
-    margin: auto;
-    position: absolute;
+    margin: 30px auto;
 }
 #official-button {
     color: #2653d7;
