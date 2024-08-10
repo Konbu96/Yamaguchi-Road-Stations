@@ -114,6 +114,10 @@ updateStationInfo = (station) => {
     
     //カルーセル　画像更新
     const slide_items = $('.slide_items');
+    if (slide_items.hasClass('slick-initialized')) {
+        slide_items
+        .slick('unslick');
+    }
     slide_items.empty();
     station.images.forEach((image, index) => {
         const listItem = $('<li></li>');
@@ -131,19 +135,7 @@ updateStationInfo = (station) => {
         fade: true,
         cssEsse: 'linear',
         autoplay: true,
-    })
-    
-    if (slide_items.hasClass('slick-initialized')) {
-        slide_items.slick('unslick');
-      }
-      slide_items.slick({
-        dots: true,
-        Infinity: true,
-        speed: 500,
-        fade: true,
-        cssEsse: 'linear',
-        autoplay: true,
-      });
+    });
 
     // 住所
     $('#station-address').text(station.address);
