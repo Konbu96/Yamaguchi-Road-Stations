@@ -166,35 +166,55 @@ li {
     display: block;
     background-color: #fff;
     padding: 2px 8px;
-    border-radius: 8px;
+    border-radius: 1px;
     border: solid 4px #2653d7;
 }
 
 
 /* station-info */
 .station-info {
-    padding: 10px 25px 0px 25px;
     position: relative;
 }
-#arrow {
-    display: flex;
-    height: 30px;
-    width: 30px;
-}
-#station-info-title {
-    font-size: 40px;
-    color: #2653d7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
+#station-board {
     z-index: 1;
-    top: 10;
-    left: 30;
+    display: flex;
+    position: absolute;
     border: solid 5px #2653d7;
     background-color: #fff;
     border-radius: 10%;
     padding: 10px;
+    top: 20;
+    left: 50;
+}
+#station-info-title {
+    font-size: 35px;
+    color: #2653d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+#station-board p {
+    font-size: 20px;
+    color: #2653d7;
+    padding-bottom: 1px;
+    border-bottom: solid #2653d7 2px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+#arrow {
+    display: flex;
+    height: 60px;
+    width: 60px;
+}
+
+#board-symbol {
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    display:flex;
+    align-items:center;
 }
 .slide_items {
     margin: 0px;
@@ -214,8 +234,7 @@ li {
     border-top:  solid 1px #2653d7;
 }
 .station-info-text {
-    width: 500px;
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     position: absolute;
     left: 50;
@@ -234,10 +253,9 @@ li {
     border-right:  dotted 2px #2653d7;
 }
 #station-info-text dd {
-    width: 70%;
     font-size: 25px;
     color: #2653d7;
-    padding: 10px 0px 10px 30px;
+    padding: 10px 30px;
     display: flex;
     align-items: center;
     float: left;
@@ -273,13 +291,14 @@ dl #each-info:nth-child(odd) {
 }
 /* station-info+ */
 #station-info-facility {
+    padding: 10px;
     display: flex;
     flex-flow: column;
     justify-content: center;
     position: absolute;
-    right: 50;
+    right: 25;
     bottom: 25;
-    background-color: rgb(255 255 255 / 65%);
+    background-color: rgba(255, 255, 255, 0.65);
 }
 #info-facility-item {
     width: 285px;
@@ -359,6 +378,9 @@ dl #each-info:nth-child(odd) {
         height: 30px;
     }
 
+    .station-info {
+        padding: 10px 25px 0px 25px;
+    }
     #station-info-title {
         padding-top: 80px;
         text-align: center;
