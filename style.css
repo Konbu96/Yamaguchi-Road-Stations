@@ -181,26 +181,29 @@ li {
     position: absolute;
     border: solid 5px #2653d7;
     background-color: #fff;
-    border-radius: 10%;
     padding: 10px;
     top: 20;
     left: 50;
 }
+#station-board-text {
+    display: flex;
+    align-items: center;
+}
 #station-info-title {
     font-size: 35px;
     color: #2653d7;
+    z-index: 1;
+}
+#station-board-text p {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1;
-}
-#station-board p {
-    font-size: 20px;
+    font-size: 15px;
     color: #2653d7;
     padding-bottom: 1px;
     border-bottom: solid #2653d7 2px;
-    position: absolute;
-    left: 50%;
+    right: 50%;
     top: 0;
 }
 #arrow {
