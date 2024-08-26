@@ -178,6 +178,8 @@ li {
 #station-board {
     z-index: 1;
     display: flex;
+    gap: 10px;
+    align-items: center;
     position: absolute;
     border: solid 5px #2653d7;
     background-color: #fff;
@@ -187,6 +189,8 @@ li {
 }
 #station-board-text {
     display: flex;
+    flex-direction: column;
+    gap: 3px;
     align-items: center;
 }
 #station-info-title {
@@ -195,16 +199,12 @@ li {
     z-index: 1;
 }
 #station-board-text p {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 15px;
     color: #2653d7;
+}
+#station-board-subtitle {   
     padding-bottom: 1px;
     border-bottom: solid #2653d7 2px;
-    right: 50%;
-    top: 0;
 }
 #arrow {
     display: flex;
@@ -212,10 +212,9 @@ li {
     width: 60px;
 }
 
-#board-symbol {
+#station-board-symbol {
     height: 50px;
     width: 50px;
-    padding: 5px;
     display:flex;
     align-items:center;
 }
@@ -384,24 +383,27 @@ dl #each-info:nth-child(odd) {
     .station-info {
         padding: 10px 25px 0px 25px;
     }
+    #station-board {
+        /* position: static; */
+        display: flex;
+        margin-top: 55px;
+        width: auto
+    }
     #station-info-title {
-        padding-top: 80px;
+        display: block;
         text-align: center;
         position: relative;
     }
-
-
-    
     #station-info-image {
         width: 75%;
         height: 480px;
-        padding: 25px;
+        padding: 25px 25px 0px  25px;
         background-color: #d5d7fc;
-        margin:25px auto;
+        margin: 70px auto 25px auto;
     }
     #station-info-text {
         padding: 25px 0px;
-        position: relative;
+        position: static;
         width: 100%;
     }
 
@@ -489,7 +491,7 @@ dl #each-info:nth-child(odd) {
         flex-flow: row;
         flex-wrap: wrap;
         justify-content: center;
-        position: relative;
+        position: static;
     }
     .map-img {
         width: 70px;
@@ -559,7 +561,6 @@ dl #each-info:nth-child(odd) {
         height: 300px;
     }
     #station-info-image img {
-        width: 95%;
         margin: 10px 0px;
     } 
     #info-item {
