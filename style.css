@@ -563,12 +563,8 @@ dl #each-info:nth-child(odd) {
     #station-info-image img {
         margin: 10px 0px;
     } 
-    #info-item {
-        border-right: none;
-        width: 100%;
-    }
     #station-info-title {
-        font-size: 40px;
+        font-size: 30px;
     }
     .station-info-icon {
         width: 30px;
@@ -577,13 +573,10 @@ dl #each-info:nth-child(odd) {
     #station-info-text dt {
         font-size: 15px;
         width: auto;
-        border-right: none;
     }
     #station-info-text dd {
         font-size: 15px;
         padding-left: 52px;
-        border-top: dotted 2px #2653d7;
-        width: 100%;
     }
     #official-div {
         width: 250px;

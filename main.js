@@ -110,6 +110,7 @@ updateStationInfo = (station) => {
     // // 駅名
     $('#station-info-title').text(station.name);
 
+    $('#station-board-translation').text(station.translation)
     
     
     //カルーセル　画像更新

@@ -1,6 +1,7 @@
   const stations = [
     {
       name: 'あいお',
+      translation: 'Aio',
       address: '山口市秋穂東1520-4',
       tel: '083-984-5704',
       time: '9:00 〜 18:00',
@@ -17,6 +18,7 @@
     },
     {
       name: 'あさひ',
+      translation: 'Asahi',
       address: '萩市朝日大字佐々並2476-1',
       tel: '0838-56-0278',
       time: '7:30 〜 18:30',
@@ -33,6 +35,7 @@
     },
     {
       name: '阿武町',
+      translation: 'Abu',
       address: '阿武郡阿武町奈古2249',
       tel: '08388-2-0355',
       time: '10:00 〜 18:00',
@@ -49,6 +52,7 @@
     },
     {
       name: 'うり坊の郷',
+      translation: 'Uribo no Sato',
       address: '萩市大字片保1124-1',
       tel: '08388-8-0114',
       time: '8:00 〜 17:00',
@@ -65,6 +69,7 @@
     },
     {
       name: 'おふく',
+      translation: 'Ohuku',
       address: '美祢市於福町上4383-1',
       tel: '0837-56-5005',
       time: '9:00 〜 18:00',
@@ -81,6 +86,7 @@
     },
     {
       name: '上関海峡',
+      translation: 'Kminoseki kaikyou',
       address: '熊毛郡上関町大字室津904-15',
       tel: '0820-62-1139',
       time: '8:30 〜 18:00',
@@ -97,6 +103,7 @@
     },
     {
       name: '願成就温泉',
+      translation: 'Ganjojuonsen',
       address: '山口市阿東徳佐上10002-116',
       tel: '083-957-0118',
       time: '10:30 〜 19:00',
@@ -113,6 +120,7 @@
     },
     {
       name: 'きくがわ',
+      translation: 'Kikugawa',
       address: '下関菊川町大字上岡枝766-1',
       tel: '083-287-4649',
       time: '8:30 〜 17:00',
@@ -129,6 +137,7 @@
     },
     {
       name: '北浦街道 豊北',
+      translation: 'Kitaurakaido Hohoku',
       address: '下関市豊北町神田上314-1',
       tel: '083-786-0111',
       time: '8:30 〜 18:00 ※季節変動 有',
@@ -145,6 +154,7 @@
     },
     {
       name: 'きららあじす',
+      translation: 'Kirara Ajisu',
       address: '山口阿知須10509-88',
       tel: '0836-66-1001',
       time: '8:30 〜 18:00',
@@ -161,6 +171,7 @@
     },
     {
       name: 'サザンセトとうわ',
+      translation: 'Sazan Seto Towa',
       address: '大島郡周防大島町西方1958-77',
       tel: '0820-78-0033',
       time: '10:00 〜 18:00',
@@ -178,6 +189,7 @@
     },
     {
       name: '潮彩市場防府',
+      translation: 'Shiosai ichiba-hofu',
       address: '防府市新築地町2-3',
       tel: '0835-28-2100',
       time: '9:00 〜 18:00',
@@ -195,6 +207,7 @@
     },
     {
       name: 'センザキッチン',
+      translation: 'Senzakitchen',
       address: '長門市仙崎4297-1',
       tel: '0837-27-0300',
       time: '9:00 〜 18:00',
@@ -212,6 +225,7 @@
     },
     {
       name: 'ソレーネ周南',
+      translation: 'Solene Shunan',
       address: '周南市大字戸田2713',
       tel: '0834-83-3303',
       time: '8:00 〜 20:00',
@@ -229,6 +243,7 @@
     },
     {
       name: '長門峡',
+      translation: 'Chomonkyo',
       address: '山口市阿東生雲東分47-1',
       tel: '083-955-0777',
       time: '9:30 〜 18:00',
@@ -245,6 +260,7 @@
     },
     {
       name: '仁保の郷',
+      translation: 'Niho no Sato',
       address: '山口市仁保中郷1034',
       tel: '083-929-0480',
       time: '8:30 〜 17:00',
@@ -261,6 +277,7 @@
     },
     {
       name: '萩往還',
+      translation: 'Hagi Okan',
       address: '萩市大字椿字鹿背ヶ坂1258',
       tel: '0838-22-9889',
       time: '9:00 〜 18:00',
@@ -276,7 +293,8 @@
       official: 'https://www.hagioukan.com/wp/',
     },
     {
-      name: 'さんさん三見',
+      name: '萩・さんさん三見',
+      translation: 'Hagi Sansansanmi',
       address: '萩市三見1028-2',
       tel: '0838-27-0041',
       time: '9:00 〜 17:00',
@@ -293,6 +311,7 @@
     },
     {
       name: '萩しーまーと',
+      translation: 'Hagi seamart',
       address: '萩市椿東4160-61',
       tel: '0838-24-4937',
       time: '9:30 〜 18:00',
@@ -310,6 +329,7 @@
     },
     {
       name: 'ハピネスふくえ',
+      translation: 'Happness Fukue',
       address: '萩市大字福井下4014-2',
       tel: '0838-52-0356',
       time: '8:30 〜 17:00',
@@ -326,6 +346,7 @@
     },
     {
       name: 'ピュアラインにしき',
+      translation: 'Pure Line Nishiki',
       address: '岩国市錦町府谷117',
       tel: '0827-71-0011',
       time: '9:00 〜 17:00',
@@ -342,6 +363,7 @@
     },
     {
       name: '蛍街道西ノ市',
+      translation: 'Hotarukaido Nishinoichi',
       address: '下関市豊田町大字中村876-4',
       tel: '083-767-0241',
       time: '8:30 〜 21:00',
@@ -358,6 +380,7 @@
     },
     {
       name: 'みとう',
+      translation: 'Mito',
       address: '美祢市美東町太田5480-1',
       tel: '08396-2-2500',
       time: '8:30 〜 17:30',
@@ -374,6 +397,7 @@
     },
     {
       name: 'ゆとりパークたまがわ',
+      translation: 'Yutori Park Tamagawa',
       address: '萩市大字下万2849-1',
       tel: '08387-2-1150',
       time: '8:30 〜 18:00',
