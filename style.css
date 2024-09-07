@@ -352,7 +352,7 @@ dl #each-info:nth-child(odd) {
     padding-right: 10px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1200px) {
      .container {
         padding-left: 0;
      }
