@@ -312,7 +312,7 @@ dl #each-info:nth-child(odd) {
 #info-facility-item img {
     width: 40px;
     height: 40px;
-    padding-right: 10px;
+    padding-right: 2px;
 }
 .exist {
     padding-left: 15px;
@@ -352,7 +352,7 @@ dl #each-info:nth-child(odd) {
     padding-right: 10px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 960px) {
      .container {
         padding-left: 0;
      }
@@ -384,10 +384,10 @@ dl #each-info:nth-child(odd) {
         padding: 10px 25px 0px 25px;
     }
     #station-board {
-        /* position: static; */
+        position: static;
         display: flex;
         margin-top: 55px;
-        width: auto
+        width: auto;
     }
     #station-info-title {
         display: block;
@@ -543,7 +543,7 @@ dl #each-info:nth-child(odd) {
 }
 @media (max-width: 600px) {
     .site-title {
-       font-size: 25px;
+       font-size: 20px;
     }
     .point {
        width: 25px;
@@ -553,6 +553,21 @@ dl #each-info:nth-child(odd) {
         width: 100%;
         font-size: 60px;
         position: relative;
+    }
+    #station-board {
+        justify-content: center;
+    }
+    #station-board-text p {
+        font-size: 7px;
+    }
+    #station-board-symbol {
+        height: 30px;
+        width: 30px;
+    }
+    #arrow {
+        display: flex;
+        height: 35px;
+        width: 35px;
     }
     .hamburger {
         top: 20px;
@@ -564,11 +579,11 @@ dl #each-info:nth-child(odd) {
         margin: 10px 0px;
     } 
     #station-info-title {
-        font-size: 30px;
+        font-size: 20px;
     }
     .station-info-icon {
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
     }
     #station-info-text dt {
         font-size: 15px;
@@ -576,23 +591,23 @@ dl #each-info:nth-child(odd) {
     }
     #station-info-text dd {
         font-size: 15px;
-        padding-left: 52px;
+        padding-left: 45px;
     }
     #official-div {
         width: 250px;
     }
     #official-button {
-        font-size: 15px;
+        font-size: 10px;
     }
     #info-facility-item {
-        width: 150px;
+        width: 130px;
     }
     #info-facility-item p {
         font-size: 15px;
     }
     #info-facility-item img {
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
     }
     .map-img {
         width: 55px;
