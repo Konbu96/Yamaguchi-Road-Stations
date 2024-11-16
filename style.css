@@ -381,7 +381,7 @@ dl #each-info:nth-child(odd) {
     }
 
     .station-info {
-        padding: 10px 25px 0px 25px;
+        padding: 10px 10px 0px 10px;
     }
     #station-board {
         position: static;
@@ -395,7 +395,7 @@ dl #each-info:nth-child(odd) {
         position: relative;
     }
     #station-info-image {
-        width: 75%;
+        max-width: 100%;
         height: 480px;
         padding: 25px 25px 0px  25px;
         background-color: #d5d7fc;
@@ -549,6 +549,10 @@ dl #each-info:nth-child(odd) {
        width: 25px;
        height: 25px;
     }
+    .point img {
+       width: 15px;
+       height: 15px;
+   }
     .station-info-title {
         width: 100%;
         font-size: 60px;
@@ -570,7 +574,7 @@ dl #each-info:nth-child(odd) {
         width: 35px;
     }
     .hamburger {
-        top: 20px;
+        top: 13px;
     }
     #station-info-image {
         height: 300px;
@@ -610,7 +614,7 @@ dl #each-info:nth-child(odd) {
         height: 20px;
     }
     .map-img {
-        width: 55px;
+        width: 50px;
     }
     .map-hamburger { 
         left: 14px;
