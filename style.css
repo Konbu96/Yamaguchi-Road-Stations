@@ -122,15 +122,16 @@ li {
 }
 #map-container {
     background-color: #2653d7;
-    height: auto;
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    transform: translateY(25%);
-    opacity: 0;
-    overflow-y: auto;
-    transition: 0.5s;
-    z-index: 21;
+        padding: 5px;
+        position: fixed;
+        height: auto;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 0;
+        overflow-y: auto;
+        transition: 0.5s;
+        z-index: 21;
 }
 .open-map #map-container {
     display: block;
@@ -505,19 +506,6 @@ dl #each-info:nth-child(odd) {
         transition: 0.5s;
         z-index: 20;
         display: block;
-    }
-    #map-container {
-        background-color: #2653d7;
-        padding: 5px;
-        position: fixed;
-        height: auto;
-        width: 100%;
-        top: 50%;
-        transform: translateY(-50%);
-        opacity: 0;
-        overflow-y: auto;
-        transition: 0.5s;
-        z-index: 21;
     }
     .open-map #map-container {
         opacity: 1;
